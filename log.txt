@@ -1,0 +1,1107 @@
+[2025-04-23 14:19:57] Ресурсы: золото = 4219, эликсир = 7980, гемы = 229
+[2025-04-23 14:22:02] Ресурсы: золото = 4219, эликсир = 7998, гемы = 229
+[2025-04-23 14:34:13] [ERROR] Поиск изображения завершился с ошибкой: Could not locate the image (highest confidence = 0.591)
+[2025-04-23 14:34:13] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl3.png
+[2025-04-23 14:34:13] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl4.png
+[2025-04-23 14:34:13] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl5.png
+[2025-04-23 14:34:13] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl6.png
+[2025-04-23 14:34:13] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl7.png
+[2025-04-23 14:34:13] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl8.png
+[2025-04-23 14:34:13] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl9.png
+[2025-04-23 14:34:13] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl10.png
+[2025-04-23 14:34:14] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl3.png
+[2025-04-23 14:34:14] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl4.png
+[2025-04-23 14:34:14] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl5.png
+[2025-04-23 14:34:14] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl6.png
+[2025-04-23 14:34:14] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl7.png
+[2025-04-23 14:34:14] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl8.png
+[2025-04-23 14:34:14] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl9.png
+[2025-04-23 14:34:14] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl10.png
+[2025-04-23 14:40:57] [WARN] Файл не найден: images/gold_storage_lvl1.png
+[2025-04-23 14:40:57] [WARN] Файл не найден: images/gold_storage_lvl2.png
+[2025-04-23 14:40:57] [WARN] Файл не найден: images/gold_storage_lvl3.png
+[2025-04-23 14:40:57] [WARN] Файл не найден: images/gold_storage_lvl4.png
+[2025-04-23 14:40:57] [WARN] Файл не найден: images/gold_storage_lvl5.png
+[2025-04-23 14:40:57] [WARN] Файл не найден: images/gold_storage_lvl6.png
+[2025-04-23 14:40:57] [WARN] Файл не найден: images/gold_storage_lvl7.png
+[2025-04-23 14:40:57] [WARN] Файл не найден: images/gold_storage_lvl8.png
+[2025-04-23 14:40:57] [WARN] Файл не найден: images/gold_storage_lvl9.png
+[2025-04-23 14:40:57] [WARN] Файл не найден: images/gold_storage_lvl10.png
+[2025-04-23 14:40:57] [WARN] Файл не найден: images/elixir_storage_lvl1.png
+[2025-04-23 14:40:57] [WARN] Файл не найден: images/elixir_storage_lvl2.png
+[2025-04-23 14:40:57] [WARN] Файл не найден: images/elixir_storage_lvl3.png
+[2025-04-23 14:40:57] [WARN] Файл не найден: images/elixir_storage_lvl4.png
+[2025-04-23 14:40:57] [WARN] Файл не найден: images/elixir_storage_lvl5.png
+[2025-04-23 14:40:57] [WARN] Файл не найден: images/elixir_storage_lvl6.png
+[2025-04-23 14:40:57] [WARN] Файл не найден: images/elixir_storage_lvl7.png
+[2025-04-23 14:40:57] [WARN] Файл не найден: images/elixir_storage_lvl8.png
+[2025-04-23 14:40:57] [WARN] Файл не найден: images/elixir_storage_lvl9.png
+[2025-04-23 14:40:57] [WARN] Файл не найден: images/elixir_storage_lvl10.png
+[2025-04-23 14:41:09] [WARN] Файл не найден: images/gold_storage_lvl1.png
+[2025-04-23 14:41:09] [WARN] Файл не найден: images/gold_storage_lvl2.png
+[2025-04-23 14:41:09] [WARN] Файл не найден: images/gold_storage_lvl3.png
+[2025-04-23 14:41:09] [WARN] Файл не найден: images/gold_storage_lvl4.png
+[2025-04-23 14:41:09] [WARN] Файл не найден: images/gold_storage_lvl5.png
+[2025-04-23 14:41:09] [WARN] Файл не найден: images/gold_storage_lvl6.png
+[2025-04-23 14:41:09] [WARN] Файл не найден: images/gold_storage_lvl7.png
+[2025-04-23 14:41:09] [WARN] Файл не найден: images/gold_storage_lvl8.png
+[2025-04-23 14:41:09] [WARN] Файл не найден: images/gold_storage_lvl9.png
+[2025-04-23 14:41:09] [WARN] Файл не найден: images/gold_storage_lvl10.png
+[2025-04-23 14:41:09] [WARN] Файл не найден: images/elixir_storage_lvl1.png
+[2025-04-23 14:41:09] [WARN] Файл не найден: images/elixir_storage_lvl2.png
+[2025-04-23 14:41:09] [WARN] Файл не найден: images/elixir_storage_lvl3.png
+[2025-04-23 14:41:09] [WARN] Файл не найден: images/elixir_storage_lvl4.png
+[2025-04-23 14:41:09] [WARN] Файл не найден: images/elixir_storage_lvl5.png
+[2025-04-23 14:41:09] [WARN] Файл не найден: images/elixir_storage_lvl6.png
+[2025-04-23 14:41:09] [WARN] Файл не найден: images/elixir_storage_lvl7.png
+[2025-04-23 14:41:09] [WARN] Файл не найден: images/elixir_storage_lvl8.png
+[2025-04-23 14:41:09] [WARN] Файл не найден: images/elixir_storage_lvl9.png
+[2025-04-23 14:41:09] [WARN] Файл не найден: images/elixir_storage_lvl10.png
+[2025-04-23 14:44:17] [INFO] Найдено 4 хранилищ уровня 1 для gold
+[2025-04-23 14:44:17] [INFO] Найдено 13 хранилищ уровня 2 для gold
+[2025-04-23 14:44:17] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl3.png
+[2025-04-23 14:44:17] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl4.png
+[2025-04-23 14:44:17] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl5.png
+[2025-04-23 14:44:17] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl6.png
+[2025-04-23 14:44:17] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl7.png
+[2025-04-23 14:44:17] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl8.png
+[2025-04-23 14:44:17] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl9.png
+[2025-04-23 14:44:17] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl10.png
+[2025-04-23 14:44:17] [INFO] Найдено 1 хранилищ уровня 1 для elixir
+[2025-04-23 14:44:18] [INFO] Найдено 6 хранилищ уровня 2 для elixir
+[2025-04-23 14:44:18] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl3.png
+[2025-04-23 14:44:18] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl4.png
+[2025-04-23 14:44:18] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl5.png
+[2025-04-23 14:44:18] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl6.png
+[2025-04-23 14:44:18] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl7.png
+[2025-04-23 14:44:18] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl8.png
+[2025-04-23 14:44:18] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl9.png
+[2025-04-23 14:44:18] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl10.png
+[2025-04-23 14:51:38] [INFO] Найдено 0 хранилищ уровня 1 для gold
+[2025-04-23 14:51:39] [INFO] Найдено 4 хранилищ уровня 2 для gold
+[2025-04-23 14:51:39] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl3.png
+[2025-04-23 14:51:39] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl4.png
+[2025-04-23 14:51:39] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl5.png
+[2025-04-23 14:51:39] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl6.png
+[2025-04-23 14:51:39] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl7.png
+[2025-04-23 14:51:39] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl8.png
+[2025-04-23 14:51:39] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl9.png
+[2025-04-23 14:51:39] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl10.png
+[2025-04-23 14:51:41] [INFO] Найдено 8 хранилищ уровня 1 для elixir
+[2025-04-23 14:51:42] [INFO] Найдено 23 хранилищ уровня 2 для elixir
+[2025-04-23 14:51:42] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl3.png
+[2025-04-23 14:51:42] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl4.png
+[2025-04-23 14:51:42] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl5.png
+[2025-04-23 14:51:42] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl6.png
+[2025-04-23 14:51:42] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl7.png
+[2025-04-23 14:51:42] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl8.png
+[2025-04-23 14:51:42] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl9.png
+[2025-04-23 14:51:42] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl10.png
+[2025-04-23 14:52:10] [INFO] Найдено 2 хранилищ уровня 1 для gold
+[2025-04-23 14:52:11] [INFO] Найдено 6 хранилищ уровня 2 для gold
+[2025-04-23 14:52:11] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl3.png
+[2025-04-23 14:52:11] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl4.png
+[2025-04-23 14:52:11] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl5.png
+[2025-04-23 14:52:11] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl6.png
+[2025-04-23 14:52:11] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl7.png
+[2025-04-23 14:52:11] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl8.png
+[2025-04-23 14:52:11] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl9.png
+[2025-04-23 14:52:11] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl10.png
+[2025-04-23 14:52:13] [INFO] Найдено 8 хранилищ уровня 1 для elixir
+[2025-04-23 14:52:13] [INFO] Найдено 23 хранилищ уровня 2 для elixir
+[2025-04-23 14:52:13] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl3.png
+[2025-04-23 14:52:13] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl4.png
+[2025-04-23 14:52:13] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl5.png
+[2025-04-23 14:52:13] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl6.png
+[2025-04-23 14:52:13] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl7.png
+[2025-04-23 14:52:13] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl8.png
+[2025-04-23 14:52:13] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl9.png
+[2025-04-23 14:52:13] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl10.png
+[2025-04-23 14:55:34] [INFO] Найдено 0 хранилищ уровня 1 для gold
+[2025-04-23 14:55:35] [INFO] Найдено 6 хранилищ уровня 2 для gold
+[2025-04-23 14:55:35] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl3.png
+[2025-04-23 14:55:35] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl4.png
+[2025-04-23 14:55:35] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl5.png
+[2025-04-23 14:55:35] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl6.png
+[2025-04-23 14:55:35] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl7.png
+[2025-04-23 14:55:35] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl8.png
+[2025-04-23 14:55:35] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl9.png
+[2025-04-23 14:55:35] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl10.png
+[2025-04-23 14:55:37] [INFO] Найдено 8 хранилищ уровня 1 для elixir
+[2025-04-23 14:55:37] [INFO] Найдено 23 хранилищ уровня 2 для elixir
+[2025-04-23 14:55:37] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl3.png
+[2025-04-23 14:55:37] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl4.png
+[2025-04-23 14:55:37] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl5.png
+[2025-04-23 14:55:37] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl6.png
+[2025-04-23 14:55:37] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl7.png
+[2025-04-23 14:55:37] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl8.png
+[2025-04-23 14:55:37] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl9.png
+[2025-04-23 14:55:37] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl10.png
+[2025-04-23 14:56:00] [INFO] Найдено 2 хранилищ уровня 1 для gold
+[2025-04-23 14:56:01] [INFO] Найдено 0 хранилищ уровня 2 для gold
+[2025-04-23 14:56:01] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl3.png
+[2025-04-23 14:56:01] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl4.png
+[2025-04-23 14:56:01] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl5.png
+[2025-04-23 14:56:01] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl6.png
+[2025-04-23 14:56:01] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl7.png
+[2025-04-23 14:56:01] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl8.png
+[2025-04-23 14:56:01] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl9.png
+[2025-04-23 14:56:01] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl10.png
+[2025-04-23 14:56:03] [INFO] Найдено 8 хранилищ уровня 1 для elixir
+[2025-04-23 14:56:04] [INFO] Найдено 23 хранилищ уровня 2 для elixir
+[2025-04-23 14:56:04] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl3.png
+[2025-04-23 14:56:04] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl4.png
+[2025-04-23 14:56:04] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl5.png
+[2025-04-23 14:56:04] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl6.png
+[2025-04-23 14:56:04] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl7.png
+[2025-04-23 14:56:04] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl8.png
+[2025-04-23 14:56:04] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl9.png
+[2025-04-23 14:56:04] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl10.png
+[2025-04-23 14:57:54] [INFO] Найдено 5 хранилищ уровня 1 для gold
+[2025-04-23 14:57:55] [INFO] Найдено 0 хранилищ уровня 2 для gold
+[2025-04-23 14:57:55] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl3.png
+[2025-04-23 14:57:55] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl4.png
+[2025-04-23 14:57:55] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl5.png
+[2025-04-23 14:57:55] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl6.png
+[2025-04-23 14:57:55] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl7.png
+[2025-04-23 14:57:55] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl8.png
+[2025-04-23 14:57:55] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl9.png
+[2025-04-23 14:57:55] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl10.png
+[2025-04-23 14:57:57] [INFO] Найдено 8 хранилищ уровня 1 для elixir
+[2025-04-23 14:57:58] [INFO] Найдено 23 хранилищ уровня 2 для elixir
+[2025-04-23 14:57:58] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl3.png
+[2025-04-23 14:57:58] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl4.png
+[2025-04-23 14:57:58] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl5.png
+[2025-04-23 14:57:58] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl6.png
+[2025-04-23 14:57:58] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl7.png
+[2025-04-23 14:57:58] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl8.png
+[2025-04-23 14:57:58] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl9.png
+[2025-04-23 14:57:58] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl10.png
+[2025-04-23 14:59:19] [INFO] Найдено 3 хранилищ уровня 1 для gold
+[2025-04-23 14:59:19] [INFO] Найдено 0 хранилищ уровня 2 для gold
+[2025-04-23 14:59:19] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl3.png
+[2025-04-23 14:59:19] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl4.png
+[2025-04-23 14:59:19] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl5.png
+[2025-04-23 14:59:19] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl6.png
+[2025-04-23 14:59:19] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl7.png
+[2025-04-23 14:59:19] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl8.png
+[2025-04-23 14:59:19] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl9.png
+[2025-04-23 14:59:19] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl10.png
+[2025-04-23 14:59:21] [INFO] Найдено 2 хранилищ уровня 1 для elixir
+[2025-04-23 14:59:22] [INFO] Найдено 10 хранилищ уровня 2 для elixir
+[2025-04-23 14:59:22] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl3.png
+[2025-04-23 14:59:22] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl4.png
+[2025-04-23 14:59:22] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl5.png
+[2025-04-23 14:59:22] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl6.png
+[2025-04-23 14:59:22] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl7.png
+[2025-04-23 14:59:22] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl8.png
+[2025-04-23 14:59:22] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl9.png
+[2025-04-23 14:59:22] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl10.png
+[2025-04-23 15:00:06] [INFO] Найдено 0 хранилищ уровня 1 для gold
+[2025-04-23 15:00:06] [INFO] Найдено 0 хранилищ уровня 2 для gold
+[2025-04-23 15:00:06] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl3.png
+[2025-04-23 15:00:06] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl4.png
+[2025-04-23 15:00:06] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl5.png
+[2025-04-23 15:00:07] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl6.png
+[2025-04-23 15:00:07] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl7.png
+[2025-04-23 15:00:07] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl8.png
+[2025-04-23 15:00:07] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl9.png
+[2025-04-23 15:00:07] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl10.png
+[2025-04-23 15:00:09] [INFO] Найдено 1 хранилищ уровня 1 для elixir
+[2025-04-23 15:00:09] [INFO] Найдено 6 хранилищ уровня 2 для elixir
+[2025-04-23 15:00:09] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl3.png
+[2025-04-23 15:00:09] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl4.png
+[2025-04-23 15:00:09] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl5.png
+[2025-04-23 15:00:09] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl6.png
+[2025-04-23 15:00:09] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl7.png
+[2025-04-23 15:00:09] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl8.png
+[2025-04-23 15:00:09] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl9.png
+[2025-04-23 15:00:09] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl10.png
+[2025-04-23 15:00:48] [INFO] Найдено 3 хранилищ уровня 1 для gold
+[2025-04-23 15:00:49] [INFO] Найдено 0 хранилищ уровня 2 для gold
+[2025-04-23 15:00:49] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl3.png
+[2025-04-23 15:00:49] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl4.png
+[2025-04-23 15:00:49] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl5.png
+[2025-04-23 15:00:49] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl6.png
+[2025-04-23 15:00:49] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl7.png
+[2025-04-23 15:00:49] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl8.png
+[2025-04-23 15:00:49] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl9.png
+[2025-04-23 15:00:49] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl10.png
+[2025-04-23 15:00:51] [INFO] Найдено 4 хранилищ уровня 1 для elixir
+[2025-04-23 15:00:52] [INFO] Найдено 13 хранилищ уровня 2 для elixir
+[2025-04-23 15:00:52] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl3.png
+[2025-04-23 15:00:52] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl4.png
+[2025-04-23 15:00:52] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl5.png
+[2025-04-23 15:00:52] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl6.png
+[2025-04-23 15:00:52] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl7.png
+[2025-04-23 15:00:52] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl8.png
+[2025-04-23 15:00:52] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl9.png
+[2025-04-23 15:00:52] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl10.png
+[2025-04-23 15:02:24] [INFO] Найдено 1 хранилищ уровня 1 для gold
+[2025-04-23 15:02:25] [INFO] Найдено 0 хранилищ уровня 2 для gold
+[2025-04-23 15:02:25] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl3.png
+[2025-04-23 15:02:25] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl4.png
+[2025-04-23 15:02:25] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl5.png
+[2025-04-23 15:02:25] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl6.png
+[2025-04-23 15:02:25] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl7.png
+[2025-04-23 15:02:25] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl8.png
+[2025-04-23 15:02:25] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl9.png
+[2025-04-23 15:02:25] [WARN] Файл не найден: C:/farmbot/images/gold_storage_lvl10.png
+[2025-04-23 15:02:27] [INFO] Найдено 1 хранилищ уровня 1 для elixir
+[2025-04-23 15:02:28] [INFO] Найдено 1 хранилищ уровня 2 для elixir
+[2025-04-23 15:02:28] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl3.png
+[2025-04-23 15:02:28] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl4.png
+[2025-04-23 15:02:28] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl5.png
+[2025-04-23 15:02:28] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl6.png
+[2025-04-23 15:02:28] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl7.png
+[2025-04-23 15:02:28] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl8.png
+[2025-04-23 15:02:28] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl9.png
+[2025-04-23 15:02:28] [WARN] Файл не найден: C:/farmbot/images/elixir_storage_lvl10.png
+[2025-04-23 17:31:40] [INFO] Найдено 1 хранилищ уровня 1 для gold по шаблону gold_storage_lvl1_dnfnf.png
+[2025-04-23 17:31:43] [WARN] Нет шаблонов для gold_storage_lvl3
+[2025-04-23 17:31:43] [WARN] Нет шаблонов для gold_storage_lvl4
+[2025-04-23 17:31:43] [WARN] Нет шаблонов для gold_storage_lvl5
+[2025-04-23 17:31:43] [WARN] Нет шаблонов для gold_storage_lvl6
+[2025-04-23 17:31:43] [WARN] Нет шаблонов для gold_storage_lvl7
+[2025-04-23 17:31:43] [WARN] Нет шаблонов для gold_storage_lvl8
+[2025-04-23 17:31:43] [WARN] Нет шаблонов для gold_storage_lvl9
+[2025-04-23 17:31:43] [WARN] Нет шаблонов для gold_storage_lvl10
+[2025-04-23 17:31:47] [INFO] Найдено 1 хранилищ уровня 1 для elixir по шаблону elixir_storage_lvl1_dndnf.png
+[2025-04-23 17:31:47] [INFO] Найдено 1 хранилищ уровня 1 для elixir по шаблону elixir_storage_lvl1_fdbfdb.png
+[2025-04-23 17:31:51] [INFO] Найдено 1 хранилищ уровня 2 для elixir по шаблону elixir_storage_lvl2_fmhmgg.png
+[2025-04-23 17:31:52] [INFO] Найдено 1 хранилищ уровня 2 для elixir по шаблону elixir_storage_lvl2_gfgmfgm.png
+[2025-04-23 17:31:53] [WARN] Нет шаблонов для elixir_storage_lvl3
+[2025-04-23 17:31:53] [WARN] Нет шаблонов для elixir_storage_lvl4
+[2025-04-23 17:31:53] [WARN] Нет шаблонов для elixir_storage_lvl5
+[2025-04-23 17:31:53] [WARN] Нет шаблонов для elixir_storage_lvl6
+[2025-04-23 17:31:53] [WARN] Нет шаблонов для elixir_storage_lvl7
+[2025-04-23 17:31:53] [WARN] Нет шаблонов для elixir_storage_lvl8
+[2025-04-23 17:31:53] [WARN] Нет шаблонов для elixir_storage_lvl9
+[2025-04-23 17:31:53] [WARN] Нет шаблонов для elixir_storage_lvl10
+[2025-04-23 17:34:02] [INFO] Найдено 1 хранилищ уровня 1 для gold по шаблону gold_storage_lvl1_dnfnf.png
+[2025-04-23 17:34:04] [INFO] Найдено 1 хранилищ уровня 2 для gold по шаблону gold_storage_lvl2_dbbsdsdb.png
+[2025-04-23 17:34:06] [WARN] Нет шаблонов для gold_storage_lvl3
+[2025-04-23 17:34:06] [WARN] Нет шаблонов для gold_storage_lvl4
+[2025-04-23 17:34:06] [WARN] Нет шаблонов для gold_storage_lvl5
+[2025-04-23 17:34:06] [WARN] Нет шаблонов для gold_storage_lvl6
+[2025-04-23 17:34:06] [WARN] Нет шаблонов для gold_storage_lvl7
+[2025-04-23 17:34:06] [WARN] Нет шаблонов для gold_storage_lvl8
+[2025-04-23 17:34:06] [WARN] Нет шаблонов для gold_storage_lvl9
+[2025-04-23 17:34:06] [WARN] Нет шаблонов для gold_storage_lvl10
+[2025-04-23 17:34:09] [INFO] Найдено 1 хранилищ уровня 1 для elixir по шаблону elixir_storage_lvl1_dndnf.png
+[2025-04-23 17:34:09] [INFO] Найдено 1 хранилищ уровня 1 для elixir по шаблону elixir_storage_lvl1_fdbfdb.png
+[2025-04-23 17:34:14] [INFO] Найдено 1 хранилищ уровня 2 для elixir по шаблону elixir_storage_lvl2_gfgmfgm.png
+[2025-04-23 17:34:14] [WARN] Нет шаблонов для elixir_storage_lvl3
+[2025-04-23 17:34:14] [WARN] Нет шаблонов для elixir_storage_lvl4
+[2025-04-23 17:34:14] [WARN] Нет шаблонов для elixir_storage_lvl5
+[2025-04-23 17:34:14] [WARN] Нет шаблонов для elixir_storage_lvl6
+[2025-04-23 17:34:14] [WARN] Нет шаблонов для elixir_storage_lvl7
+[2025-04-23 17:34:14] [WARN] Нет шаблонов для elixir_storage_lvl8
+[2025-04-23 17:34:14] [WARN] Нет шаблонов для elixir_storage_lvl9
+[2025-04-23 17:34:14] [WARN] Нет шаблонов для elixir_storage_lvl10
+[2025-04-23 17:37:35] [INFO] Найдено 1 хранилищ уровня 1 для gold по шаблону gold_storage_lvl1_dnfnf.png
+[2025-04-23 17:37:37] [INFO] Найдено 1 хранилищ уровня 2 для gold по шаблону gold_storage_lvl2_dbbsdsdb.png
+[2025-04-23 17:37:41] [INFO] Найдено 1 хранилищ уровня 1 для elixir по шаблону elixir_storage_lvl1_dndnf.png
+[2025-04-23 17:37:46] [INFO] Найдено 1 хранилищ уровня 2 для elixir по шаблону elixir_storage_lvl2_gfgmfgm.png
+[2025-04-23 17:44:07] [INFO] Найдено 0 хранилищ уровня 1 для gold по шаблону gold_storage_lvl1_bfx.png
+[2025-04-23 17:44:07] [INFO] Найдено 0 хранилищ уровня 1 для gold по шаблону gold_storage_lvl1_dgnmd.png
+[2025-04-23 17:44:07] [INFO] Найдено 0 хранилищ уровня 1 для gold по шаблону gold_storage_lvl1_dndnd.png
+[2025-04-23 17:44:08] [INFO] Найдено 1 хранилищ уровня 1 для gold по шаблону gold_storage_lvl1_dnfnf.png
+[2025-04-23 17:44:09] [INFO] Найдено 0 хранилищ уровня 1 для gold по шаблону gold_storage_lvl1_gfbx.png
+[2025-04-23 17:44:09] [INFO] Найдено 0 хранилищ уровня 1 для gold по шаблону gold_storage_lvl1_sgbdxbc.png
+[2025-04-23 17:44:10] [INFO] Найдено 0 хранилищ уровня 2 для gold по шаблону gold_storage_lvl2_dbbsds.png
+[2025-04-23 17:44:10] [INFO] Найдено 1 хранилищ уровня 2 для gold по шаблону gold_storage_lvl2_dbbsdsdb.png
+[2025-04-23 17:44:11] [INFO] Найдено 0 хранилищ уровня 2 для gold по шаблону gold_storage_lvl2_fdndfn.png
+[2025-04-23 17:44:11] [INFO] Найдено 0 хранилищ уровня 2 для gold по шаблону gold_storage_lvl2_mgfggn.png
+[2025-04-23 17:44:12] [INFO] Найдено 0 хранилищ уровня 2 для gold по шаблону gold_storage_lvl2_vdszvvx.png
+[2025-04-23 17:44:12] [WARN] Файл не найден: C:/farmbot/images/townhall_1.png
+[2025-04-23 17:44:12] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 17:44:12] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 17:44:12] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 17:44:12] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 17:44:12] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 17:44:12] [INFO] Вместимость ратуши (gold): 0
+[2025-04-23 17:44:14] [INFO] Найдено 1 хранилищ уровня 1 для elixir по шаблону elixir_storage_lvl1_bsd.png
+[2025-04-23 17:44:15] [INFO] Найдено 0 хранилищ уровня 1 для elixir по шаблону elixir_storage_lvl1_dbds.png
+[2025-04-23 17:44:15] [INFO] Найдено 0 хранилищ уровня 1 для elixir по шаблону elixir_storage_lvl1_dndnf.png
+[2025-04-23 17:44:16] [INFO] Найдено 0 хранилищ уровня 1 для elixir по шаблону elixir_storage_lvl1_fdbfdb.png
+[2025-04-23 17:44:16] [INFO] Найдено 0 хранилищ уровня 1 для elixir по шаблону elixir_storage_lvl1_fgmg.png
+[2025-04-23 17:44:17] [INFO] Найдено 0 хранилищ уровня 1 для elixir по шаблону elixir_storage_lvl1_fmjghfg.png
+[2025-04-23 17:44:17] [INFO] Найдено 0 хранилищ уровня 1 для elixir по шаблону elixir_storage_lvl1_sgdtfjk.png
+[2025-04-23 17:44:18] [INFO] Найдено 0 хранилищ уровня 1 для elixir по шаблону elixir_storage_lvl1_tfmf.png
+[2025-04-23 17:44:18] [INFO] Найдено 0 хранилищ уровня 1 для elixir по шаблону elixir_storage_lvl1_vdfv.png
+[2025-04-23 17:44:18] [INFO] Найдено 0 хранилищ уровня 2 для elixir по шаблону elixir_storage_lvl2_dndfn.png
+[2025-04-23 17:44:19] [INFO] Найдено 0 хранилищ уровня 2 для elixir по шаблону elixir_storage_lvl2_dnndf.png
+[2025-04-23 17:44:19] [INFO] Найдено 0 хранилищ уровня 2 для elixir по шаблону elixir_storage_lvl2_fmhmgg.png
+[2025-04-23 17:44:20] [INFO] Найдено 0 хранилищ уровня 2 для elixir по шаблону elixir_storage_lvl2_fxgndf.png
+[2025-04-23 17:44:20] [INFO] Найдено 1 хранилищ уровня 2 для elixir по шаблону elixir_storage_lvl2_gfgmfgm.png
+[2025-04-23 17:44:21] [INFO] Найдено 0 хранилищ уровня 2 для elixir по шаблону elixir_storage_lvl2_nfgnfggf.png
+[2025-04-23 17:44:21] [WARN] Файл не найден: C:/farmbot/images/townhall_1.png
+[2025-04-23 17:44:21] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 17:44:22] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 17:44:22] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 17:44:22] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 17:44:22] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 17:44:22] [INFO] Вместимость ратуши (elixir): 0
+[2025-04-23 17:46:11] [INFO] Найдено 0 хранилищ уровня 1 для gold по шаблону gold_storage_lvl1_bfx.png
+[2025-04-23 17:46:12] [INFO] Найдено 0 хранилищ уровня 1 для gold по шаблону gold_storage_lvl1_dgnmd.png
+[2025-04-23 17:46:12] [INFO] Найдено 0 хранилищ уровня 1 для gold по шаблону gold_storage_lvl1_dndnd.png
+[2025-04-23 17:46:13] [INFO] Найдено 0 хранилищ уровня 1 для gold по шаблону gold_storage_lvl1_dnfnf.png
+[2025-04-23 17:46:13] [INFO] Найдено 0 хранилищ уровня 1 для gold по шаблону gold_storage_lvl1_gfbx.png
+[2025-04-23 17:46:14] [INFO] Найдено 0 хранилищ уровня 1 для gold по шаблону gold_storage_lvl1_sgbdxbc.png
+[2025-04-23 17:46:14] [INFO] Найдено 0 хранилищ уровня 2 для gold по шаблону gold_storage_lvl2_dbbsds.png
+[2025-04-23 17:46:15] [INFO] Найдено 1 хранилищ уровня 2 для gold по шаблону gold_storage_lvl2_dbbsdsdb.png
+[2025-04-23 17:46:15] [INFO] Найдено 0 хранилищ уровня 2 для gold по шаблону gold_storage_lvl2_fdndfn.png
+[2025-04-23 17:46:16] [INFO] Найдено 0 хранилищ уровня 2 для gold по шаблону gold_storage_lvl2_mgfggn.png
+[2025-04-23 17:46:16] [INFO] Найдено 0 хранилищ уровня 2 для gold по шаблону gold_storage_lvl2_vdszvvx.png
+[2025-04-23 17:46:17] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 17:46:17] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 17:46:17] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 17:46:17] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 17:46:17] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 17:46:17] [INFO] Вместимость ратуши (gold): 0
+[2025-04-23 17:46:19] [INFO] Найдено 1 хранилищ уровня 1 для elixir по шаблону elixir_storage_lvl1_bsd.png
+[2025-04-23 17:46:20] [INFO] Найдено 0 хранилищ уровня 1 для elixir по шаблону elixir_storage_lvl1_dbds.png
+[2025-04-23 17:46:20] [INFO] Найдено 0 хранилищ уровня 1 для elixir по шаблону elixir_storage_lvl1_dndnf.png
+[2025-04-23 17:46:21] [INFO] Найдено 0 хранилищ уровня 1 для elixir по шаблону elixir_storage_lvl1_fdbfdb.png
+[2025-04-23 17:46:21] [INFO] Найдено 0 хранилищ уровня 1 для elixir по шаблону elixir_storage_lvl1_fgmg.png
+[2025-04-23 17:46:22] [INFO] Найдено 0 хранилищ уровня 1 для elixir по шаблону elixir_storage_lvl1_fmjghfg.png
+[2025-04-23 17:46:22] [INFO] Найдено 0 хранилищ уровня 1 для elixir по шаблону elixir_storage_lvl1_sgdtfjk.png
+[2025-04-23 17:46:23] [INFO] Найдено 0 хранилищ уровня 1 для elixir по шаблону elixir_storage_lvl1_tfmf.png
+[2025-04-23 17:46:23] [INFO] Найдено 0 хранилищ уровня 1 для elixir по шаблону elixir_storage_lvl1_vdfv.png
+[2025-04-23 17:46:24] [INFO] Найдено 0 хранилищ уровня 2 для elixir по шаблону elixir_storage_lvl2_dndfn.png
+[2025-04-23 17:46:24] [INFO] Найдено 0 хранилищ уровня 2 для elixir по шаблону elixir_storage_lvl2_dnndf.png
+[2025-04-23 17:46:25] [INFO] Найдено 0 хранилищ уровня 2 для elixir по шаблону elixir_storage_lvl2_fmhmgg.png
+[2025-04-23 17:46:25] [INFO] Найдено 0 хранилищ уровня 2 для elixir по шаблону elixir_storage_lvl2_fxgndf.png
+[2025-04-23 17:46:26] [INFO] Найдено 1 хранилищ уровня 2 для elixir по шаблону elixir_storage_lvl2_gfgmfgm.png
+[2025-04-23 17:46:26] [INFO] Найдено 0 хранилищ уровня 2 для elixir по шаблону elixir_storage_lvl2_nfgnfggf.png
+[2025-04-23 17:46:27] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 17:46:27] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 17:46:27] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 17:46:27] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 17:46:27] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 17:46:27] [INFO] Вместимость ратуши (elixir): 0
+[2025-04-23 17:46:44] Ресурсы: золото = 54, эликсир = 14500, гемы = 228
+[2025-04-23 17:46:44] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 17:46:44] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 17:46:44] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 17:46:44] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 17:46:44] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 17:47:25] Ресурсы: золото = 5474, эликсир = 14500, гемы = 228
+[2025-04-23 17:47:25] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 17:47:25] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 17:47:25] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 17:47:25] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 17:47:25] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 17:47:46] Ресурсы: золото = 5474, эликсир = 14500, гемы = 228
+[2025-04-23 17:47:47] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 17:47:47] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 17:47:47] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 17:47:47] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 17:47:47] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 17:52:14] [INFO] Найдено 0 хранилищ уровня 1 для gold по шаблону gold_storage_lvl1_bfx.png
+[2025-04-23 17:52:14] [INFO] Найдено 0 хранилищ уровня 1 для gold по шаблону gold_storage_lvl1_dgnmd.png
+[2025-04-23 17:52:15] [INFO] Найдено 0 хранилищ уровня 1 для gold по шаблону gold_storage_lvl1_dndnd.png
+[2025-04-23 17:52:16] [INFO] Найдено 0 хранилищ уровня 1 для gold по шаблону gold_storage_lvl1_dnfnf.png
+[2025-04-23 17:52:16] [INFO] Найдено 0 хранилищ уровня 1 для gold по шаблону gold_storage_lvl1_gfbx.png
+[2025-04-23 17:52:17] [INFO] Найдено 0 хранилищ уровня 1 для gold по шаблону gold_storage_lvl1_sgbdxbc.png
+[2025-04-23 17:52:18] [INFO] Найдено 0 хранилищ уровня 2 для gold по шаблону gold_storage_lvl2_dbbsds.png
+[2025-04-23 17:52:18] [INFO] Найдено 1 хранилищ уровня 2 для gold по шаблону gold_storage_lvl2_dbbsdsdb.png
+[2025-04-23 17:52:19] [INFO] Найдено 0 хранилищ уровня 2 для gold по шаблону gold_storage_lvl2_fdndfn.png
+[2025-04-23 17:52:20] [INFO] Найдено 0 хранилищ уровня 2 для gold по шаблону gold_storage_lvl2_mgfggn.png
+[2025-04-23 17:52:20] [INFO] Найдено 0 хранилищ уровня 2 для gold по шаблону gold_storage_lvl2_vdszvvx.png
+[2025-04-23 17:52:21] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 17:52:21] [INFO] Вместимость ратуши (gold): 10000
+[2025-04-23 17:52:24] [INFO] Найдено 1 хранилищ уровня 1 для elixir по шаблону elixir_storage_lvl1_bsd.png
+[2025-04-23 17:52:25] [INFO] Найдено 0 хранилищ уровня 1 для elixir по шаблону elixir_storage_lvl1_dbds.png
+[2025-04-23 17:52:25] [INFO] Найдено 0 хранилищ уровня 1 для elixir по шаблону elixir_storage_lvl1_dndnf.png
+[2025-04-23 17:52:26] [INFO] Найдено 0 хранилищ уровня 1 для elixir по шаблону elixir_storage_lvl1_fdbfdb.png
+[2025-04-23 17:52:26] [INFO] Найдено 0 хранилищ уровня 1 для elixir по шаблону elixir_storage_lvl1_fgmg.png
+[2025-04-23 17:52:26] [INFO] Найдено 0 хранилищ уровня 1 для elixir по шаблону elixir_storage_lvl1_fmjghfg.png
+[2025-04-23 17:52:27] [INFO] Найдено 0 хранилищ уровня 1 для elixir по шаблону elixir_storage_lvl1_sgdtfjk.png
+[2025-04-23 17:52:27] [INFO] Найдено 0 хранилищ уровня 1 для elixir по шаблону elixir_storage_lvl1_tfmf.png
+[2025-04-23 17:52:28] [INFO] Найдено 0 хранилищ уровня 1 для elixir по шаблону elixir_storage_lvl1_vdfv.png
+[2025-04-23 17:52:28] [INFO] Найдено 0 хранилищ уровня 2 для elixir по шаблону elixir_storage_lvl2_dndfn.png
+[2025-04-23 17:52:29] [INFO] Найдено 0 хранилищ уровня 2 для elixir по шаблону elixir_storage_lvl2_dnndf.png
+[2025-04-23 17:52:29] [INFO] Найдено 0 хранилищ уровня 2 для elixir по шаблону elixir_storage_lvl2_fmhmgg.png
+[2025-04-23 17:52:30] [INFO] Найдено 0 хранилищ уровня 2 для elixir по шаблону elixir_storage_lvl2_fxgndf.png
+[2025-04-23 17:52:31] [INFO] Найдено 1 хранилищ уровня 2 для elixir по шаблону elixir_storage_lvl2_gfgmfgm.png
+[2025-04-23 17:52:31] [INFO] Найдено 0 хранилищ уровня 2 для elixir по шаблону elixir_storage_lvl2_nfgnfggf.png
+[2025-04-23 17:52:31] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 17:52:32] [INFO] Вместимость ратуши (elixir): 10000
+[2025-04-23 17:53:01] Ресурсы: золото = 5474, эликсир = 14500, гемы = 228
+[2025-04-23 17:53:01] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 17:57:19] [INFO] Найдено 0 хранилищ уровня 1 для gold по шаблону gold_storage_lvl1_bfx.png
+[2025-04-23 17:57:19] [INFO] Найдено 0 хранилищ уровня 1 для gold по шаблону gold_storage_lvl1_dgnmd.png
+[2025-04-23 17:57:20] [INFO] Найдено 0 хранилищ уровня 1 для gold по шаблону gold_storage_lvl1_dndnd.png
+[2025-04-23 17:57:21] [INFO] Найдено 0 хранилищ уровня 1 для gold по шаблону gold_storage_lvl1_dnfnf.png
+[2025-04-23 17:57:21] [INFO] Найдено 0 хранилищ уровня 1 для gold по шаблону gold_storage_lvl1_gfbx.png
+[2025-04-23 17:57:22] [INFO] Найдено 0 хранилищ уровня 1 для gold по шаблону gold_storage_lvl1_sgbdxbc.png
+[2025-04-23 17:57:22] [INFO] Найдено 0 хранилищ уровня 2 для gold по шаблону gold_storage_lvl2_dbbsds.png
+[2025-04-23 17:57:23] [INFO] Найдено 0 хранилищ уровня 2 для gold по шаблону gold_storage_lvl2_dbbsdsdb.png
+[2025-04-23 17:57:23] [INFO] Найдено 0 хранилищ уровня 2 для gold по шаблону gold_storage_lvl2_fdndfn.png
+[2025-04-23 17:57:24] [INFO] Найдено 0 хранилищ уровня 2 для gold по шаблону gold_storage_lvl2_mgfggn.png
+[2025-04-23 17:57:24] [INFO] Найдено 0 хранилищ уровня 2 для gold по шаблону gold_storage_lvl2_vdszvvx.png
+[2025-04-23 17:57:25] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 17:57:25] ✅ Найдена ратуша уровня 3
+[2025-04-23 17:57:25] [INFO] Вместимость ратуши (gold): 10000
+[2025-04-23 17:57:28] [INFO] Найдено 1 хранилищ уровня 1 для elixir по шаблону elixir_storage_lvl1_bsd.png
+[2025-04-23 17:57:28] [INFO] Найдено 0 хранилищ уровня 1 для elixir по шаблону elixir_storage_lvl1_dbds.png
+[2025-04-23 17:57:29] [INFO] Найдено 0 хранилищ уровня 1 для elixir по шаблону elixir_storage_lvl1_dndnf.png
+[2025-04-23 17:57:29] [INFO] Найдено 0 хранилищ уровня 1 для elixir по шаблону elixir_storage_lvl1_fdbfdb.png
+[2025-04-23 17:57:30] [INFO] Найдено 0 хранилищ уровня 1 для elixir по шаблону elixir_storage_lvl1_fgmg.png
+[2025-04-23 17:57:31] [INFO] Найдено 0 хранилищ уровня 1 для elixir по шаблону elixir_storage_lvl1_fmjghfg.png
+[2025-04-23 17:57:31] [INFO] Найдено 0 хранилищ уровня 1 для elixir по шаблону elixir_storage_lvl1_sgdtfjk.png
+[2025-04-23 17:57:32] [INFO] Найдено 0 хранилищ уровня 1 для elixir по шаблону elixir_storage_lvl1_tfmf.png
+[2025-04-23 17:57:32] [INFO] Найдено 0 хранилищ уровня 1 для elixir по шаблону elixir_storage_lvl1_vdfv.png
+[2025-04-23 17:57:33] [INFO] Найдено 0 хранилищ уровня 2 для elixir по шаблону elixir_storage_lvl2_dndfn.png
+[2025-04-23 17:57:33] [INFO] Найдено 0 хранилищ уровня 2 для elixir по шаблону elixir_storage_lvl2_dnndf.png
+[2025-04-23 17:57:34] [INFO] Найдено 0 хранилищ уровня 2 для elixir по шаблону elixir_storage_lvl2_fmhmgg.png
+[2025-04-23 17:57:34] [INFO] Найдено 0 хранилищ уровня 2 для elixir по шаблону elixir_storage_lvl2_fxgndf.png
+[2025-04-23 17:57:35] [INFO] Найдено 1 хранилищ уровня 2 для elixir по шаблону elixir_storage_lvl2_gfgmfgm.png
+[2025-04-23 17:57:35] [INFO] Найдено 0 хранилищ уровня 2 для elixir по шаблону elixir_storage_lvl2_nfgnfggf.png
+[2025-04-23 17:57:36] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 17:57:36] ✅ Найдена ратуша уровня 3
+[2025-04-23 17:57:36] [INFO] Вместимость ратуши (elixir): 10000
+[2025-04-23 18:03:04] [INFO] Найдено 1 хранилищ уровня 2 для gold по шаблону gold_storage_lvl2_dbbsdssdfd.png
+[2025-04-23 18:03:06] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:03:06] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:03:06] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:03:06] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:03:06] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:03:07] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:03:08] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:03:08] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:03:08] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:03:08] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:03:09] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:03:09] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:03:09] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:03:09] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:03:09] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:03:11] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:03:11] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:03:11] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:03:11] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:03:11] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:03:13] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:03:13] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:03:13] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:03:13] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:03:13] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:03:14] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:03:15] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:03:15] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:03:15] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:03:15] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:03:16] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:03:16] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:03:16] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:03:16] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:03:16] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:03:18] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:03:18] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:03:18] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:03:18] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:03:18] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:03:20] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:03:20] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:03:20] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:03:20] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:03:20] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:03:21] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:03:22] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:03:22] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:03:22] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:03:22] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:03:23] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:03:23] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:03:23] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:03:23] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:03:23] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:03:25] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:03:25] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:03:25] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:03:25] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:03:25] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:03:26] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:03:27] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:03:27] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:03:27] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:03:27] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:03:45] [INFO] Найдено 1 хранилищ уровня 2 для gold по шаблону gold_storage_lvl2_dbbsdssdfd.png
+[2025-04-23 18:03:47] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:03:47] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:03:47] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:03:47] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:03:47] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:03:48] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:03:49] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:03:49] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:03:49] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:03:49] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:03:50] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:03:50] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:03:50] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:03:50] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:03:50] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:03:52] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:03:52] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:03:52] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:03:52] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:03:52] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:03:53] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:03:54] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:03:54] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:03:54] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:03:54] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:03:55] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:03:56] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:03:56] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:03:56] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:03:56] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:03:57] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:03:58] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:03:58] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:03:58] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:03:58] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:03:59] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:03:59] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:03:59] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:03:59] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:03:59] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:04:12] Ресурсы: золото = 5564, эликсир = 14500, гемы = 228
+[2025-04-23 18:04:12] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:04:13] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:04:13] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:04:13] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:04:13] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:04:14] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:04:15] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:04:15] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:04:15] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:04:15] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:04:16] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:04:16] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:04:16] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:04:16] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:04:16] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:04:18] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:04:18] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:04:18] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:04:18] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:04:18] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:04:19] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:04:20] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:04:20] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:04:20] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:04:20] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:04:21] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:04:21] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:04:22] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:04:22] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:04:22] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:04:23] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:04:23] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:04:23] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:04:23] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:04:23] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:04:25] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:04:25] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:04:25] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:04:25] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:04:25] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:04:27] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:04:27] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:04:27] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:04:27] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:04:27] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:04:28] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:04:29] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:04:29] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:04:29] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:04:29] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:04:30] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:04:31] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:04:31] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:04:31] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:04:31] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:04:32] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:04:34] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:04:34] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:04:34] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:04:34] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:04:36] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:04:36] ✅ Найдена ратуша уровня 3
+[2025-04-23 18:05:07] Ресурсы: золото = 5564, эликсир = 14500, гемы = 228
+[2025-04-23 18:05:07] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:05:08] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:05:08] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:05:08] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:05:08] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:05:09] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:05:09] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:05:09] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:05:09] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:05:09] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:05:11] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:05:11] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:05:11] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:05:11] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:05:11] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:05:12] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:05:13] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:05:13] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:05:13] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:05:13] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:05:14] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:05:15] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:05:15] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:05:15] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:05:15] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:05:16] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:05:16] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:05:16] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:05:16] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:05:16] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:05:18] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:05:18] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:05:18] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:05:18] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:05:18] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:14:29] Ресурсы: золото = 5564, эликсир = 14500, гемы = 228
+[2025-04-23 18:14:29] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:14:30] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:14:30] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:14:30] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:14:30] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:14:30] 🔁 Ратуша не найдена, повторная попытка...
+[2025-04-23 18:14:33] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:14:33] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:14:33] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:14:33] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:14:33] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:14:33] 🔁 Ратуша не найдена, повторная попытка...
+[2025-04-23 18:14:37] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:14:37] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:14:37] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:14:37] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:14:37] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:14:37] 🔁 Ратуша не найдена, повторная попытка...
+[2025-04-23 18:14:40] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:14:41] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:14:41] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:14:41] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:14:41] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:14:41] 🔁 Ратуша не найдена, повторная попытка...
+[2025-04-23 18:14:44] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:14:45] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:14:45] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:14:45] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:14:45] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:14:45] 🔁 Ратуша не найдена, повторная попытка...
+[2025-04-23 18:14:48] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:14:48] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:14:48] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:14:48] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:14:48] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:14:48] 🔁 Ратуша не найдена, повторная попытка...
+[2025-04-23 18:14:52] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:14:52] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:14:52] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:14:52] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:14:52] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:14:52] 🔁 Ратуша не найдена, повторная попытка...
+[2025-04-23 18:14:56] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:14:56] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:14:56] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:14:56] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:14:56] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:14:56] 🔁 Ратуша не найдена, повторная попытка...
+[2025-04-23 18:14:59] ❌ Не удалось определить уровень ратуши.
+[2025-04-23 18:15:29] Ресурсы: золото = 5867, эликсир = 14500, гемы = 228
+[2025-04-23 18:15:29] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:15:29] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:15:29] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:15:29] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:15:29] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:15:29] 🔁 Ратуша не найдена, повторная попытка...
+[2025-04-23 18:15:33] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:15:33] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:15:33] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:15:33] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:15:33] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:15:33] 🔁 Ратуша не найдена, повторная попытка...
+[2025-04-23 18:15:37] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:15:37] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:15:37] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:15:37] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:15:37] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:15:37] 🔁 Ратуша не найдена, повторная попытка...
+[2025-04-23 18:15:40] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:15:41] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:15:41] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:15:41] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:15:41] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:15:41] 🔁 Ратуша не найдена, повторная попытка...
+[2025-04-23 18:15:44] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:15:45] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:15:45] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:15:45] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:15:45] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:15:45] 🔁 Ратуша не найдена, повторная попытка...
+[2025-04-23 18:15:48] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:15:48] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:15:48] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:15:48] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:15:48] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:15:48] 🔁 Ратуша не найдена, повторная попытка...
+[2025-04-23 18:15:52] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:15:52] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:15:52] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:15:52] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:15:52] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:15:52] 🔁 Ратуша не найдена, повторная попытка...
+[2025-04-23 18:15:55] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:15:56] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:15:56] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:15:56] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:15:56] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:15:56] 🔁 Ратуша не найдена, повторная попытка...
+[2025-04-23 18:15:59] ❌ Не удалось определить уровень ратуши.
+[2025-04-23 18:16:09] Ресурсы: золото = 5867, эликсир = 14500, гемы = 228
+[2025-04-23 18:16:10] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:16:10] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:16:10] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:16:10] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:16:10] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:16:10] 🔁 Ратуша не найдена, повторная попытка...
+[2025-04-23 18:16:14] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:16:14] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:16:14] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:16:14] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:16:14] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:16:14] 🔁 Ратуша не найдена, повторная попытка...
+[2025-04-23 18:16:17] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:16:18] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:16:18] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:16:18] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:16:18] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:16:18] 🔁 Ратуша не найдена, повторная попытка...
+[2025-04-23 18:16:22] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:16:23] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:16:23] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:16:23] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:16:23] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:16:23] 🔁 Ратуша не найдена, повторная попытка...
+[2025-04-23 18:16:27] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:16:27] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:16:27] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:16:27] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:16:27] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:16:27] 🔁 Ратуша не найдена, повторная попытка...
+[2025-04-23 18:16:30] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:16:31] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:16:31] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:16:31] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:16:31] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:16:31] 🔁 Ратуша не найдена, повторная попытка...
+[2025-04-23 18:16:34] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:16:34] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:16:34] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:16:34] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:16:34] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:16:34] 🔁 Ратуша не найдена, повторная попытка...
+[2025-04-23 18:16:49] [INFO] Найдено 1 хранилищ уровня 2 для gold по шаблону gold_storage_lvl2_dbbsdssdfd.png
+[2025-04-23 18:16:51] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:16:51] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:16:51] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:16:51] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:16:51] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:16:51] 🔁 Ратуша не найдена, повторная попытка...
+[2025-04-23 18:16:55] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:16:55] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:16:55] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:16:55] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:16:55] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:16:55] 🔁 Ратуша не найдена, повторная попытка...
+[2025-04-23 18:16:58] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:16:58] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:16:58] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:16:58] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:16:58] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:16:58] 🔁 Ратуша не найдена, повторная попытка...
+[2025-04-23 18:17:02] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:17:02] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:17:02] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:17:02] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:17:02] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:17:02] 🔁 Ратуша не найдена, повторная попытка...
+[2025-04-23 18:17:05] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:17:06] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:17:06] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:17:06] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:17:06] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:17:06] 🔁 Ратуша не найдена, повторная попытка...
+[2025-04-23 18:17:09] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:17:09] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:17:09] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:17:09] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:17:09] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:17:09] 🔁 Ратуша не найдена, повторная попытка...
+[2025-04-23 18:17:12] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:17:13] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:17:13] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:17:13] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:17:13] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:17:13] 🔁 Ратуша не найдена, повторная попытка...
+[2025-04-23 18:17:16] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:17:16] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:17:16] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:17:16] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:17:16] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:17:16] 🔁 Ратуша не найдена, повторная попытка...
+[2025-04-23 18:17:20] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:17:20] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:17:20] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:17:20] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:17:20] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:17:20] 🔁 Ратуша не найдена, повторная попытка...
+[2025-04-23 18:17:23] ❌ Не удалось определить уровень ратуши.
+[2025-04-23 18:17:27] [INFO] Найдено 1 хранилищ уровня 2 для gold по шаблону gold_storage_lvl2_dbbsdssdfd.png
+[2025-04-23 18:17:28] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:17:29] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:17:29] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:17:29] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:17:29] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:17:29] 🔁 Ратуша не найдена, повторная попытка...
+[2025-04-23 18:17:32] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:17:32] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:17:32] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:17:32] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:17:32] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:17:32] 🔁 Ратуша не найдена, повторная попытка...
+[2025-04-23 18:17:36] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:17:36] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:17:36] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:17:36] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:17:36] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:17:36] 🔁 Ратуша не найдена, повторная попытка...
+[2025-04-23 18:17:39] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:17:39] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:17:39] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:17:39] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:17:39] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:17:39] 🔁 Ратуша не найдена, повторная попытка...
+[2025-04-23 18:17:43] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:17:43] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:17:43] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:17:43] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:17:43] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:17:43] 🔁 Ратуша не найдена, повторная попытка...
+[2025-04-23 18:17:46] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:17:46] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:17:46] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:17:46] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:17:46] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:17:46] 🔁 Ратуша не найдена, повторная попытка...
+[2025-04-23 18:17:50] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:17:50] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:17:50] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:17:50] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:17:50] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:17:50] 🔁 Ратуша не найдена, повторная попытка...
+[2025-04-23 18:17:53] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:17:54] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:17:54] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:17:54] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:17:54] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:17:54] 🔁 Ратуша не найдена, повторная попытка...
+[2025-04-23 18:20:41] Ресурсы: золото = 55, эликсир = 14500, гемы = 228
+[2025-04-23 18:21:21] Ресурсы: золото = 55, эликсир = 14500, гемы = 228
+[2025-04-23 18:21:22] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:21:23] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:21:23] 🔁 Ратуша не найдена, повторная попытка...
+[2025-04-23 18:21:27] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:21:27] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:21:27] 🔁 Ратуша не найдена, повторная попытка...
+[2025-04-23 18:21:31] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:21:32] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:21:32] 🔁 Ратуша не найдена, повторная попытка...
+[2025-04-23 18:21:36] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:21:36] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:21:36] 🔁 Ратуша не найдена, повторная попытка...
+[2025-04-23 18:21:40] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:21:40] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:21:40] 🔁 Ратуша не найдена, повторная попытка...
+[2025-04-23 18:21:45] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:21:45] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:21:45] 🔁 Ратуша не найдена, повторная попытка...
+[2025-04-23 18:21:49] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:21:49] [ERROR] Поиск изображения завершился с ошибкой: 
+[2025-04-23 18:21:49] 🔁 Ратуша не найдена, повторная попытка...
+[2025-04-23 18:21:52] ❌ Не удалось определить уровень ратуши.
+[2025-04-23 18:27:18] Ресурсы: золото = 586, эликсир = 14500, гемы = 228
+[2025-04-23 18:27:21] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:27:21] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:27:21] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:27:21] [WARN] Файл не найден: C:/farmbot/images/townhall_7.png
+[2025-04-23 18:27:21] [WARN] Файл не найден: C:/farmbot/images/townhall_8.png
+[2025-04-23 18:27:21] [WARN] Файл не найден: C:/farmbot/images/townhall_9.png
+[2025-04-23 18:27:21] [WARN] Файл не найден: C:/farmbot/images/townhall_10.png
+[2025-04-23 18:27:21] 🔁 Ратуша не найдена, повторная попытка...
+[2025-04-23 18:27:25] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:27:25] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:27:25] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:27:25] [WARN] Файл не найден: C:/farmbot/images/townhall_7.png
+[2025-04-23 18:27:25] [WARN] Файл не найден: C:/farmbot/images/townhall_8.png
+[2025-04-23 18:27:25] [WARN] Файл не найден: C:/farmbot/images/townhall_9.png
+[2025-04-23 18:27:25] [WARN] Файл не найден: C:/farmbot/images/townhall_10.png
+[2025-04-23 18:27:25] 🔁 Ратуша не найдена, повторная попытка...
+[2025-04-23 18:27:30] [WARN] Файл не найден: C:/farmbot/images/townhall_4.png
+[2025-04-23 18:27:30] [WARN] Файл не найден: C:/farmbot/images/townhall_5.png
+[2025-04-23 18:27:30] [WARN] Файл не найден: C:/farmbot/images/townhall_6.png
+[2025-04-23 18:27:30] [WARN] Файл не найден: C:/farmbot/images/townhall_7.png
+[2025-04-23 18:27:30] [WARN] Файл не найден: C:/farmbot/images/townhall_8.png
+[2025-04-23 18:27:30] [WARN] Файл не найден: C:/farmbot/images/townhall_9.png
+[2025-04-23 18:27:30] [WARN] Файл не найден: C:/farmbot/images/townhall_10.png
+[2025-04-23 18:27:30] ❌ Ратуша не найдена ни в одной из попыток.
+[2025-04-23 18:32:09] Ресурсы: золото = None, эликсир = None, гемы = None
+[2025-04-23 18:32:12] 🔁 Ратуша не найдена, повторная попытка...
+[2025-04-23 18:32:17] 🔁 Ратуша не найдена, повторная попытка...
+[2025-04-23 18:32:22] ❌ Ратуша не найдена ни в одной из попыток.
+[2025-04-23 18:34:59] Ресурсы: золото = 586, эликсир = 14500, гемы = 228
+[2025-04-23 18:35:02] ✅ Найдена ратуша уровня 3 по шаблону townhall_3_sgddff.png
+[2025-04-23 18:36:09] [INFO] Найдено 1 хранилищ уровня 2 для gold по шаблону gold_storage_lvl2_dbbsdssdfd.png
+[2025-04-23 18:36:15] ✅ Найдена ратуша уровня 3 по шаблону townhall_3_sgdcndff.png
+[2025-04-23 18:36:23] [INFO] Найдено 1 хранилищ уровня 2 для gold по шаблону gold_storage_lvl2_dbbsdssdfd.png
+[2025-04-23 18:36:28] ✅ Найдена ратуша уровня 3 по шаблону townhall_3_sgdcndff.png
+[2025-04-23 18:36:40] ✅ Найдена ратуша уровня 3 по шаблону townhall_3_sgdcndff.png
+[2025-04-23 18:36:51] ✅ Найдена ратуша уровня 3 по шаблону townhall_3_sgdcndff.png
+[2025-04-23 18:37:22] [INFO] Найдено 1 хранилищ уровня 2 для gold по шаблону gold_storage_lvl2_dbbsdssdfd.png
+[2025-04-23 18:37:26] ✅ Найдена ратуша уровня 3 по шаблону townhall_3_sgdcndff.png
+[2025-04-23 18:37:32] [INFO] Найдено 1 хранилищ уровня 2 для gold по шаблону gold_storage_lvl2_dbbsdssdfd.png
+[2025-04-23 18:37:35] ✅ Найдена ратуша уровня 3 по шаблону townhall_3_sgdcndff.png
+[2025-04-23 18:37:46] ✅ Найдена ратуша уровня 3 по шаблону townhall_3_sgdcndff.png
+[2025-04-23 18:37:57] ✅ Найдена ратуша уровня 3 по шаблону townhall_3_sgdcndff.png
+[2025-04-23 18:41:43] [INFO] Найдено 1 хранилищ уровня 2 для gold по шаблону gold_storage_lvl2_dbbsdssdfd.png
+[2025-04-23 18:41:46] ✅ Найдена ратуша уровня 3 по шаблону townhall_3_sgdcndff.png
+[2025-04-23 18:41:52] [INFO] Найдено 1 хранилищ уровня 2 для gold по шаблону gold_storage_lvl2_dbbsdssdfd.png
+[2025-04-23 18:41:56] ✅ Найдена ратуша уровня 3 по шаблону townhall_3_sgdcndff.png
+[2025-04-23 18:42:07] ✅ Найдена ратуша уровня 3 по шаблону townhall_3_sgdcndff.png
+[2025-04-23 18:42:18] ✅ Найдена ратуша уровня 3 по шаблону townhall_3_sgdcndff.png
+[2025-04-23 18:47:30] [INFO] Найдено 1 хранилищ уровня 2 для gold по шаблону gold_storage_lvl2_dbbsdssdfd.png
+[2025-04-23 18:47:34] ✅ Найдена ратуша уровня 3 по шаблону townhall_3_sgdcndff.png
+[2025-04-23 18:47:34] [INFO] Вместимость ратуши (gold): 10000
+[2025-04-23 18:47:39] [INFO] Найдено 1 хранилищ уровня 2 для gold по шаблону gold_storage_lvl2_dbbsdssdfd.png
+[2025-04-23 18:47:41] [INFO] Вместимость ратуши (gold): 10000
+[2025-04-23 18:47:51] ✅ Найдена ратуша уровня 3 по шаблону townhall_3_sgdcndff.png
+[2025-04-23 18:47:51] [INFO] Вместимость ратуши (elixir): 10000
+[2025-04-23 18:47:59] [INFO] Вместимость ратуши (elixir): 10000
+[2025-04-23 18:48:15] [INFO] Найдено 1 хранилищ уровня 2 для gold по шаблону gold_storage_lvl2_dbbsdssdfd.png
+[2025-04-23 18:48:24] 🔁 Ратуша не найдена, повторная попытка...
+[2025-04-23 18:48:30] 🔁 Ратуша не найдена, повторная попытка...
+[2025-04-23 18:48:38] ❌ Ратуша не найдена ни в одной из попыток.
+[2025-04-23 18:48:48] [INFO] Найдено 1 хранилищ уровня 2 для gold по шаблону gold_storage_lvl2_dbbsdssdfd.png
+[2025-04-23 18:48:58] 🔁 Ратуша не найдена, повторная попытка...
+[2025-04-23 18:49:05] 🔁 Ратуша не найдена, повторная попытка...
+[2025-04-23 18:49:12] ❌ Ратуша не найдена ни в одной из попыток.
+[2025-04-23 18:49:19] [INFO] Найдено 1 хранилищ уровня 1 для elixir по шаблону elixir_storage_lvl1_fdbfvdb.png
+[2025-04-23 18:49:46] 🔁 Ратуша не найдена, повторная попытка...
+[2025-04-23 18:49:51] 🔁 Ратуша не найдена, повторная попытка...
+[2025-04-23 18:50:12] [INFO] Найдено 1 хранилищ уровня 1 для gold по шаблону gold_storage_lvl1_dgsvnmd.png
+[2025-04-23 18:50:16] [INFO] Найдено 1 хранилищ уровня 2 для gold по шаблону gold_storage_lvl2_dbbsdssdfd.png
+[2025-04-23 18:50:20] ✅ Найдена ратуша уровня 3 по шаблону townhall_3_sgdcndff.png
+[2025-04-23 18:50:20] [INFO] Вместимость ратуши (gold): 10000
+[2025-04-23 18:50:22] [INFO] Найдено 1 хранилищ уровня 1 для gold по шаблону gold_storage_lvl1_dgsvnmd.png
+[2025-04-23 18:50:26] [INFO] Найдено 1 хранилищ уровня 2 для gold по шаблону gold_storage_lvl2_dbbsdssdfd.png
+[2025-04-23 18:50:27] [INFO] Вместимость ратуши (gold): 10000
+[2025-04-23 18:50:31] [INFO] Найдено 1 хранилищ уровня 1 для elixir по шаблону elixir_storage_lvl1_fdbfvdb.png
+[2025-04-23 18:50:38] ✅ Найдена ратуша уровня 3 по шаблону townhall_3_sgdcndff.png
+[2025-04-23 18:50:38] [INFO] Вместимость ратуши (elixir): 10000
+[2025-04-23 18:50:41] [INFO] Найдено 1 хранилищ уровня 1 для elixir по шаблону elixir_storage_lvl1_fdbfvdb.png
+[2025-04-23 18:50:46] [INFO] Вместимость ратуши (elixir): 10000
+[2025-04-23 18:51:33] [INFO] Найдено 1 хранилищ уровня 1 для gold по шаблону gold_storage_lvl1_dgsvnmd.png
+[2025-04-23 18:51:36] [INFO] Найдено 1 хранилищ уровня 2 для gold по шаблону gold_storage_lvl2_dbbsdssdfd.png
+[2025-04-23 18:51:39] ✅ Найдена ратуша уровня 3 по шаблону townhall_3_sgdcndff.png
+[2025-04-23 18:51:39] [INFO] Вместимость ратуши (gold): 10000
+[2025-04-23 18:51:42] [INFO] Найдено 1 хранилищ уровня 1 для gold по шаблону gold_storage_lvl1_dgsvnmd.png
+[2025-04-23 18:51:45] [INFO] Найдено 1 хранилищ уровня 2 для gold по шаблону gold_storage_lvl2_dbbsdssdfd.png
+[2025-04-23 18:51:46] [INFO] Вместимость ратуши (gold): 10000
+[2025-04-23 18:51:49] [INFO] Найдено 1 хранилищ уровня 1 для elixir по шаблону elixir_storage_lvl1_fdbfvdb.png
+[2025-04-23 18:51:53] [INFO] Найдено 1 хранилищ уровня 2 для elixir по шаблону elixir_storage_lvl2_fmvhmgg.png
+[2025-04-23 18:51:56] ✅ Найдена ратуша уровня 3 по шаблону townhall_3_sgdcndff.png
+[2025-04-23 18:51:56] [INFO] Вместимость ратуши (elixir): 10000
+[2025-04-23 18:52:00] [INFO] Найдено 1 хранилищ уровня 1 для elixir по шаблону elixir_storage_lvl1_fdbfvdb.png
+[2025-04-23 18:52:04] [INFO] Найдено 1 хранилищ уровня 2 для elixir по шаблону elixir_storage_lvl2_fmvhmgg.png
+[2025-04-23 18:52:05] [INFO] Вместимость ратуши (elixir): 10000
+[2025-04-23 18:52:44] ✅ Найдена ратуша уровня 3 по шаблону townhall_3_sgdcndff.png
+[2025-04-23 18:52:44] [INFO] Вместимость ратуши (gold): 10000
+[2025-04-23 18:52:51] [INFO] Вместимость ратуши (gold): 10000
+[2025-04-23 18:52:54] [INFO] Найдено 1 хранилищ уровня 1 для elixir по шаблону elixir_storage_lvl1_fdbfvdb.png
+[2025-04-23 18:52:58] [INFO] Найдено 1 хранилищ уровня 2 для elixir по шаблону elixir_storage_lvl2_fmvhmgg.png
+[2025-04-23 18:53:02] ✅ Найдена ратуша уровня 3 по шаблону townhall_3_sgdcndff.png
+[2025-04-23 18:53:02] [INFO] Вместимость ратуши (elixir): 10000
+[2025-04-23 18:53:05] [INFO] Найдено 1 хранилищ уровня 1 для elixir по шаблону elixir_storage_lvl1_fdbfvdb.png
+[2025-04-23 18:53:09] [INFO] Найдено 1 хранилищ уровня 2 для elixir по шаблону elixir_storage_lvl2_fmvhmgg.png
+[2025-04-23 18:53:10] [INFO] Вместимость ратуши (elixir): 10000
+[2025-04-23 18:54:11] ✅ Найдена ратуша уровня 3 по шаблону townhall_3_sgdcndff.png
+[2025-04-23 18:54:11] [INFO] Вместимость ратуши (gold): 10000
+[2025-04-23 18:54:18] [INFO] Вместимость ратуши (gold): 10000
+[2025-04-23 18:54:22] [INFO] Найдено 1 хранилищ уровня 1 для elixir по шаблону elixir_storage_lvl1_fdbfvdb.png
+[2025-04-23 18:54:25] [INFO] Найдено 1 хранилищ уровня 2 для elixir по шаблону elixir_storage_lvl2_fmvhmgg.png
+[2025-04-23 18:54:29] ✅ Найдена ратуша уровня 3 по шаблону townhall_3_sgdcndff.png
+[2025-04-23 18:54:29] [INFO] Вместимость ратуши (elixir): 10000
+[2025-04-23 18:54:33] [INFO] Найдено 1 хранилищ уровня 1 для elixir по шаблону elixir_storage_lvl1_fdbfvdb.png
+[2025-04-23 18:54:36] [INFO] Найдено 1 хранилищ уровня 2 для elixir по шаблону elixir_storage_lvl2_fmvhmgg.png
+[2025-04-23 18:54:38] [INFO] Вместимость ратуши (elixir): 10000
+[2025-04-23 18:56:01] [INFO] Найдено 1 хранилищ уровня 1 для gold по шаблону gold_storage_lvl1_dnfnvf.png
+[2025-04-23 18:56:04] [INFO] Найдено 1 хранилищ уровня 2 для gold по шаблону gold_storage_lvl2_dbbvsdsdb.png
+[2025-04-23 18:56:08] ✅ Найдена ратуша уровня 3 по шаблону townhall_3_sgdcndff.png
+[2025-04-23 18:56:08] [INFO] Вместимость ратуши (gold): 10000
+[2025-04-23 18:56:12] [INFO] Найдено 1 хранилищ уровня 1 для gold по шаблону gold_storage_lvl1_dnfnvf.png
+[2025-04-23 18:56:15] [INFO] Найдено 1 хранилищ уровня 2 для gold по шаблону gold_storage_lvl2_dbbvsdsdb.png
+[2025-04-23 18:56:17] [INFO] Вместимость ратуши (gold): 10000
+[2025-04-23 18:56:21] [INFO] Найдено 1 хранилищ уровня 1 для elixir по шаблону elixir_storage_lvl1_fdbfvdb.png
+[2025-04-23 18:56:25] [INFO] Найдено 1 хранилищ уровня 2 для elixir по шаблону elixir_storage_lvl2_fmvhmgg.png
+[2025-04-23 18:56:29] ✅ Найдена ратуша уровня 3 по шаблону townhall_3_sgdcndff.png
+[2025-04-23 18:56:29] [INFO] Вместимость ратуши (elixir): 10000
+[2025-04-23 18:56:32] [INFO] Найдено 1 хранилищ уровня 1 для elixir по шаблону elixir_storage_lvl1_fdbfvdb.png
+[2025-04-23 18:56:36] [INFO] Найдено 1 хранилищ уровня 2 для elixir по шаблону elixir_storage_lvl2_fmvhmgg.png
+[2025-04-23 18:56:38] [INFO] Вместимость ратуши (elixir): 10000
+[2025-04-23 19:03:03] [INFO] Найдено 1 хранилищ уровня 2 для gold по шаблону gold_storage_lvl2_dbbsdvssdfd.png
+[2025-04-23 19:03:05] [INFO] Найдено 1 хранилищ уровня 3 для gold по шаблону gold_storage_lvl3_bdfx.png
+[2025-04-23 19:03:06] [INFO] Найдено 1 хранилищ уровня 3 для gold по шаблону gold_storage_lvl3_bfx.png
+[2025-04-23 19:03:08] ✅ Найдена ратуша уровня 3 по шаблону townhall_3_sgdcndff.png
+[2025-04-23 19:03:08] [INFO] Вместимость ратуши (gold): 10000
+[2025-04-23 19:03:15] [INFO] Найдено 1 хранилищ уровня 2 для gold по шаблону gold_storage_lvl2_dbbsdvssdfd.png
+[2025-04-23 19:03:18] [INFO] Найдено 1 хранилищ уровня 3 для gold по шаблону gold_storage_lvl3_bdfx.png
+[2025-04-23 19:03:19] [INFO] Найдено 1 хранилищ уровня 3 для gold по шаблону gold_storage_lvl3_bfx.png
+[2025-04-23 19:03:19] [INFO] Вместимость ратуши (gold): 10000
+[2025-04-23 19:03:22] [INFO] Найдено 1 хранилищ уровня 1 для elixir по шаблону elixir_storage_lvl1_fdbfvdb.png
+[2025-04-23 19:03:26] [INFO] Найдено 1 хранилищ уровня 2 для elixir по шаблону elixir_storage_lvl2_fmvhmgg.png
+[2025-04-23 19:03:30] ✅ Найдена ратуша уровня 3 по шаблону townhall_3_sgdcndff.png
+[2025-04-23 19:03:30] [INFO] Вместимость ратуши (elixir): 10000
+[2025-04-23 19:03:38] [INFO] Найдено 1 хранилищ уровня 2 для elixir по шаблону elixir_storage_lvl2_fmvhmgg.png
+[2025-04-23 19:03:40] [INFO] Вместимость ратуши (elixir): 10000
+[2025-04-23 19:10:55] [INFO] Найдено хранилище уровня 2 для gold по шаблону gold_storage_lvl2_dbbsdvssdfd.png
+[2025-04-23 19:10:57] [INFO] Найдено хранилище уровня 3 для gold по шаблону gold_storage_lvl3_bdfx.png
+[2025-04-23 19:11:00] ✅ Найдена ратуша уровня 3 по шаблону townhall_3_sgdcndff.png
+[2025-04-23 19:11:00] [INFO] Вместимость ратуши (gold): 10000
+[2025-04-23 19:11:08] [INFO] Найдено хранилище уровня 2 для gold по шаблону gold_storage_lvl2_dbbsdvssdfd.png
+[2025-04-23 19:11:10] [INFO] Найдено хранилище уровня 3 для gold по шаблону gold_storage_lvl3_bdfx.png
+[2025-04-23 19:11:11] [INFO] Вместимость ратуши (gold): 10000
+[2025-04-23 19:11:15] [INFO] Найдено хранилище уровня 1 для elixir по шаблону elixir_storage_lvl1_fdbfvdb.png
+[2025-04-23 19:11:18] [INFO] Найдено хранилище уровня 2 для elixir по шаблону elixir_storage_lvl2_fmvhmgg.png
+[2025-04-23 19:11:22] ✅ Найдена ратуша уровня 3 по шаблону townhall_3_sgdcndff.png
+[2025-04-23 19:11:22] [INFO] Вместимость ратуши (elixir): 10000
+[2025-04-23 19:11:26] [INFO] Найдено хранилище уровня 1 для elixir по шаблону elixir_storage_lvl1_fdbfvdb.png
+[2025-04-23 19:11:30] [INFO] Найдено хранилище уровня 2 для elixir по шаблону elixir_storage_lvl2_fmvhmgg.png
+[2025-04-23 19:11:32] [INFO] Вместимость ратуши (elixir): 10000
+[2025-04-23 20:17:29] 📊 Анализ ресурсов и построек...
+[2025-04-23 20:17:32] ✅ Найдена ратуша уровня 3 по шаблону townhall_3_sgdcndff.png
+[2025-04-23 20:17:36] Ресурсы: золото = 6373, эликсир = 12788, гемы = 225
+[2025-04-23 20:17:44] [INFO] Найдено хранилище уровня 2 для gold по шаблону gold_storage_lvl2_dbbsdssdfd.png
+[2025-04-23 20:17:51] 🔁 Ратуша не найдена, повторная попытка...
+[2025-04-23 20:17:56] 🔁 Ратуша не найдена, повторная попытка...
+[2025-04-23 20:18:01] ❌ Ратуша не найдена ни в одной из попыток.

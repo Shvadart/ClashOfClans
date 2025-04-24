@@ -1,0 +1,17 @@
+{
+    "1": [  
+      {
+        "name": "C:/farmbot/images/elixir_collector_lvl1.png",
+        "elixir": 150,
+        "gold": 0,
+        "type": "collector"
+      },
+      {
+        "name": "C:/farmbot/images/laboratory_lvl1.png",
+        "elixir": 5000,
+        "gold": 0,
+        "type": "laboratory"
+      }
+    ]
+  }
+  

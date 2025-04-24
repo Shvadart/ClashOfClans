@@ -1,0 +1,38 @@
+{
+    "2": [
+      {
+        "name": "C:/farmbot/images/gold_storage_lvl1.png",
+        "gold": 0,
+        "elixir": 750,
+        "duration_sec": 120,
+        "done": false,
+        "type": "storage"
+      },
+      {
+        "name": "C:/farmbot/images/elixir_storage_lvl1.png",
+        "gold": 750,
+        "elixir": 0,
+        "duration_sec": 120,
+        "done": false,
+        "type": "storage"
+      },
+      {
+        "name": "C:/farmbot/images/town_hall_lvl2.png",
+        "gold": 4000,
+        "elixir": 0,
+        "duration_sec": 1800,
+        "done": false
+      }
+    ],
+    "3": [
+      {
+        "name": "C:/farmbot/images/gold_storage_lvl1.png",
+        "gold": 0,
+        "elixir": 750,
+        "duration_sec": 120,
+        "done": false,
+        "type": "storage"
+      }
+      
+    ]
+  }
