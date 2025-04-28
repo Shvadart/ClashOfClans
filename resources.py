@@ -56,6 +56,12 @@ def get_townhall_level():
             time.sleep(delay_between)
 
     log("❌ Ратуша не найдена ни в одной из попыток.")
-    return None
+    user_input = input("🔁 Добавь шаблон ратуши и нажми Enter (или введи 'stop' для выхода): ")
+    if user_input.strip().lower() == "stop":
+        log("🛑 Программа остановлена пользователем.")
+        exit(0)
+    return get_townhall_level()
+
+
 
 

@@ -24,15 +24,19 @@
         "done": false
       }
     ],
-    "3": [
-      {
-        "name": "C:/farmbot/images/gold_storage_lvl1.png",
-        "gold": 0,
-        "elixir": 750,
-        "duration_sec": 120,
-        "done": false,
-        "type": "storage"
-      }
-      
-    ]
+    
+      "3": [
+        {
+          "names": [
+            "C:/farmbot/images/elixir_storage_lvl4_a.png",
+            "C:/farmbot/images/elixir_storage_lvl4_b.png"
+          ],
+          "gold": 0,
+          "elixir": 0,
+          "type": "storage",
+          "done": false
+        }
+      ]
+    
+    
   }

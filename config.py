@@ -1,5 +1,5 @@
 # config.py
-IMAGE_DIR = "images/"
+
 GOLD_REGION = (1472, 70, 1712-1472, 112-70)
 ELIXIR_REGION = (1471, 166, 1714-1471, 199-166)
 GEMS_REGION = (1650, 254, 1715-1650, 293-254)
@@ -11,3 +11,6 @@ USE_GEMS = True
 # Параллелограммные зоны выпуска юнитов
 DEPLOY_ZONE_1 = [(1097, 60), (1244, 65), (1747, 527)]  # A, B, D
 DEPLOY_ZONE_2 = [(186, 264), (476, 56), (217, 351)]  # A, B, D
+IMAGE_DIR = "C:/farmbot/images"
+CONFIDENCE = 0.7  # Стандартный уровень уверенности
+PAUSE_SHORT = 0.5

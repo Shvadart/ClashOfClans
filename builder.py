@@ -1,30 +1,23 @@
-# builder.py
+# builder.py (обновлённый)
+from utils import find_and_click, find_on_screen
+from logger import log
+from resources import get_resources, get_townhall_level
+from decorators import with_resource_collection
 import time
 import pyautogui
 import json
 import os
-from utils import find_and_click, find_on_screen
-from logger import log
-from resources import get_resources, get_townhall_level
 
-
-def load_new_building_data():
-    path = os.path.join(os.path.dirname(__file__), "new_buildings.json")
-    with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)
-
-
+@with_resource_collection
 def build_new_structure():
-    log("🔨 Открываем меню строителя...")
+    log("\U0001f528 Открываем меню строителя...")
     if not find_and_click("C:/farmbot/images/builder_icon.png"):
         log("❌ Меню строителя не найдено.")
         return False
 
     time.sleep(1)
-
-    # 🆕 Поиск надписи "Новое"
     new_found = False
-    for _ in range(3):  # до 3 попыток с пролистыванием
+    for _ in range(3):
         for new_img in [
             "C:/farmbot/images/new1.png",
             "C:/farmbot/images/new2.png",
@@ -36,10 +29,8 @@ def build_new_structure():
                 log(f"✅ Найдено 'Новое': {new_img}")
                 new_found = True
                 break
-
         if new_found:
             break
-
         log("📜 Не найдено 'Новое', пролистываем...")
         pyautogui.moveTo(500, 500)
         pyautogui.dragRel(0, -100, duration=0.3)
@@ -50,8 +41,6 @@ def build_new_structure():
         return False
 
     time.sleep(1)
-
-    # ❗️Проверка, не выбрана ли хижина строителя
     if find_on_screen("C:/farmbot/images/builder_hut_label.png"):
         log("🚫 Обнаружена Хижина строителя — отменяем выбор.")
         find_and_click("C:/farmbot/images/red_cross.png")
@@ -73,15 +62,16 @@ def build_new_structure():
         log("❌ Стрелка не найдена.")
         return False
 
-    # 📋 Определяем здание по шаблонам и проверяем ресурсы
     townhall = str(get_townhall_level())
     gold, elixir, _ = get_resources()
-    building_data = load_new_building_data().get(townhall, [])
+    path = os.path.join(os.path.dirname(__file__), "new_buildings.json")
+    with open(path, "r", encoding="utf-8") as f:
+        building_data = json.load(f).get(townhall, [])
 
     match_found = False
     for b in building_data:
-        if find_on_screen(b["name"]):
-            log(f"🔎 Определено здание: {b['name']}")
+        if find_any_on_screen(item["names"]):
+            log(f"🔎 Определено здание: {item['names'][0]}")
             if gold >= b.get("gold", 0) and elixir >= b.get("elixir", 0):
                 match_found = True
                 break

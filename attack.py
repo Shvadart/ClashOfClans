@@ -29,7 +29,7 @@ def auto_attack():
 
 
     # Пауза перед началом атаки
-    delay = random.randint(0, 15)
+    delay = random.randint(0, 10)
     log(f"Ждём {delay} сек перед атакой...")
     time.sleep(delay)
 
@@ -41,10 +41,10 @@ def auto_attack():
     log("Выпускаем войска...")
 
     log("Зажимаем мышку в зоне 1 для выпуска юнитов...")
-    hold_mouse_in_parallelogram(DEPLOY_ZONE_1, hold_time=1.5)
+    hold_mouse_in_parallelogram(DEPLOY_ZONE_1, hold_time=1)
 
     log("Зажимаем мышку в зоне 2 для выпуска юнитов...")
-    hold_mouse_in_parallelogram(DEPLOY_ZONE_2, hold_time=4)
+    hold_mouse_in_parallelogram(DEPLOY_ZONE_2, hold_time=10)
 
 
     log("Войска выпущены. Ждём окончания боя...")
@@ -62,7 +62,7 @@ def auto_attack():
             if now - last_log_time > 30:
                 log(f"[INFO] Кнопка 'Домой' пока не найдена...")
                 last_log_time = now
-        time.sleep(5)
+        time.sleep(5)     
 
 
 
