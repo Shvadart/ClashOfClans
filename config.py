@@ -14,3 +14,8 @@ DEPLOY_ZONE_2 = [(186, 264), (476, 56), (217, 351)]  # A, B, D
 IMAGE_DIR = "C:/farmbot/images"
 CONFIDENCE = 0.7  # Стандартный уровень уверенности
 PAUSE_SHORT = 0.5
+
+
+CONFIDENCE_DEFAULT = 0.8  # Для большинства элементов
+CONFIDENCE_BUILDER = 0.9  # Только для строителей
+CONFIDENCE_IMPORTANT = 0.95 # Для критических элементов

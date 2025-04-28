@@ -15,7 +15,15 @@ def debug_screenshot():
     pyautogui.screenshot(path)
     return path
 
-def find_and_click(image_name, pause=PAUSE_SHORT, confidence=None, retry=2):
+def find_and_click(
+    image_name, 
+    pause=PAUSE_SHORT, 
+    confidence=None, 
+    retry=2,
+    silent_errors=False,  # Новый параметр для подавления ошибок
+    silent_all=False      # Полное подавление логов (для массовых проверок)
+):
+    """Улучшенная версия с контролируемым логированием"""
     if confidence is None:
         confidence = CONFIDENCE
         
@@ -25,7 +33,8 @@ def find_and_click(image_name, pause=PAUSE_SHORT, confidence=None, retry=2):
         path = os.path.join(IMAGE_DIR, image_name)
 
     if not os.path.exists(path):
-        log(f"[ERROR] Файл изображения не найден: {path}")
+        if not silent_all:
+            log(f"[ERROR] Файл изображения не найден: {path}")
         return False
 
     for attempt in range(retry + 1):
@@ -40,18 +49,22 @@ def find_and_click(image_name, pause=PAUSE_SHORT, confidence=None, retry=2):
                 time.sleep(pause + random.uniform(0.1, 0.4))
                 return True
             
-            if attempt == retry:
+            if attempt == retry and not silent_all:
                 debug_path = debug_screenshot()
-                log(f"[DEBUG] Изображение не найдено: {path} (попытка {attempt + 1}/{retry + 1})")
-                log(f"[DEBUG] Скриншот сохранен: {debug_path}")
+                if not silent_errors:
+                    log(f"[DEBUG] Изображение не найдено: {os.path.basename(path)}")
+                log(f"[DEBUG] Скриншот сохранен: {debug_path}", silent=silent_all)
                 
         except Exception as e:
-            log(f"[ERROR] Ошибка при поиске изображения: {str(e)}")
-            if attempt == retry:
-                debug_path = debug_screenshot()
-                log(f"[DEBUG] Скриншот сохранен: {debug_path}")
+            if not silent_all:
+                if not silent_errors:
+                    log(f"[ERROR] Ошибка при поиске изображения: {str(e)}")
+                if attempt == retry:
+                    debug_path = debug_screenshot()
+                    log(f"[DEBUG] Скриншот сохранен: {debug_path}", silent=silent_all)
         
-        time.sleep(1)  # Пауза между попытками
+        if attempt < retry:
+            time.sleep(1)  # Пауза только между попытками
     
     return False
 

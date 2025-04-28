@@ -8,6 +8,7 @@ import random
 def auto_attack():
     log("Начинаем автоатаку...")
 
+    # Важные элементы - логируем как обычно
     if not find_and_click("C:/farmbot/images/attack.png"):
         log("Кнопка 'В бой' не найдена.")
         return False
@@ -19,58 +20,51 @@ def auto_attack():
 
     time.sleep(5)
 
-    # Рандомно нажимаем "следующий противник" 0–5 раз
+    # Для менее важных элементов можно использовать silent_errors
     for _ in range(random.randint(0, 5)):   
-        if find_and_click("C:/farmbot/images/next_opponent.png"):
+        if find_and_click("C:/farmbot/images/next_opponent.png", silent_errors=True):
             log("Следующий противник...")
             time.sleep(random.uniform(1, 2))
-        
 
-
-
-    # Пауза перед началом атаки
     delay = random.randint(0, 10)
     log(f"Ждём {delay} сек перед атакой...")
     time.sleep(delay)
 
-    # Кликаем по иконке юнита
     if not find_and_click("C:/farmbot/images/troop_icon.png"):
         log("Иконка юнита не найдена.")
         return False
 
     log("Выпускаем войска...")
-
-    log("Зажимаем мышку в зоне 1 для выпуска юнитов...")
     hold_mouse_in_parallelogram(DEPLOY_ZONE_1, hold_time=1)
-
-    log("Зажимаем мышку в зоне 2 для выпуска юнитов...")
     hold_mouse_in_parallelogram(DEPLOY_ZONE_2, hold_time=10)
-
 
     log("Войска выпущены. Ждём окончания боя...")
 
-    wait_time = time.time() + 180  # 3 минуты
+    wait_time = time.time() + 180
     last_log_time = 0
+    check_interval = 5
 
     while time.time() < wait_time:
         try:
-            if find_and_click("C:/farmbot/images/home_button.png"):
+            # Для периодических проверок используем silent_all
+            if find_and_click("C:/farmbot/images/home_button.png", silent_all=True):
                 log("Бой завершён, нажата кнопка 'Домой'.")
                 return True
+            
+            # Логируем статус не чаще чем раз в 30 секунд
+            now = time.time()
+            if now - last_log_time > 30:
+                log("[INFO] Ожидание завершения боя...")
+                last_log_time = now
+                
         except Exception as e:
             now = time.time()
             if now - last_log_time > 30:
-                log(f"[INFO] Кнопка 'Домой' пока не найдена...")
+                log(f"[INFO] Ошибка при ожидании: {str(e)}")
                 last_log_time = now
-        time.sleep(5)     
-
-
+                
+        time.sleep(check_interval)
 
     log("Время боя истекло. Возвращаемся вручную.")
-    try:
-        return find_and_click("C:/farmbot/images/home_button.png")
-    except Exception as e:
-        log(f"[ERROR] Не удалось вернуться домой вручную: {e}")
-        return False
-
-    
+    # Последняя попытка - важное событие, логируем полностью
+    return find_and_click("C:/farmbot/images/home_button.png")
