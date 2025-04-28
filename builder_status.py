@@ -7,8 +7,12 @@ from config import CONFIDENCE_BUILDER
 IMAGE_DIR = "C:/farmbot/images/"
 
 def get_builder_status():
+    """Возвращает '0_2', '1_2', '2_2' или 'unknown'."""
     for status_img in ["0_2.png", "1_2.png", "2_2.png"]:
-        found = find_on_screen(IMAGE_DIR + status_img, confidence=CONFIDENCE_BUILDER)
+        full_path = IMAGE_DIR + status_img
+        found = find_on_screen(full_path, 
+                             confidence=CONFIDENCE_BUILDER,
+                             is_expected_fail=True)  # Указываем, что ошибки ожидаемы
         if found:
             return status_img.replace(".png", "")
     return "unknown"

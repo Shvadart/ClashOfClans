@@ -94,11 +94,10 @@ def hold_mouse_in_parallelogram(zone, hold_time=2.0):
     time.sleep(hold_time)
     pyautogui.mouseUp()
 
-def find_on_screen(image_path, confidence=CONFIDENCE, multiple=False):
-    import pyautogui
-
+def find_on_screen(image_path, confidence=CONFIDENCE, multiple=False, is_expected_fail=False):
+    """Поиск изображения на экране с управлением логированием ошибок"""
     if not os.path.exists(image_path):
-        log(f"[WARN] Файл не найден: {image_path}")
+        log(f"[WARN] Файл не найден: {image_path}", silent=is_expected_fail)
         return None
 
     try:
@@ -106,7 +105,8 @@ def find_on_screen(image_path, confidence=CONFIDENCE, multiple=False):
             return list(pyautogui.locateAllOnScreen(image_path, confidence=confidence))
         return pyautogui.locateOnScreen(image_path, confidence=confidence)
     except Exception as e:
-        log(f"[ERROR] Поиск изображения завершился с ошибкой: {e}")
+        if not is_expected_fail:
+            log(f"[DEBUG] Ошибка поиска {os.path.basename(image_path)}: {e}", silent=True)
         return None
 
 def find_any_and_click(image_paths, pause=PAUSE_SHORT):
