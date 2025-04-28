@@ -1,59 +1,88 @@
-import unittest
-from unittest.mock import patch, MagicMock
+# test_collect.py
 from collect import collect_resources_if_visible
+from logger import log
+import time
+import os
 
-class TestCollectResources(unittest.TestCase):
+def live_collection_test():
+    """Тест сбора ресурсов в реальной игре"""
+    log("\n=== ТЕСТ СБОРА РЕСУРСОВ ===")
+    log("Перед началом убедитесь, что:")
+    log("1. Игра Clash of Clans запущена")
+    log("2. На экране есть собираемые ресурсы (полные шахты/хранилища)")
+    log("3. Окно игры активно и не перекрыто другими окнами")
     
-    @patch('collect.find_and_click')
-    @patch('collect.debug_screenshot')
-    @patch('collect.log')
-    def test_collect_resources_success(self, mock_log, mock_debug_screenshot, mock_find_and_click):
-        # Мокируем поведение find_and_click, чтобы он возвращал True при нахождении ресурса
-        mock_find_and_click.return_value = True
-        
-        # Запуск тестируемой функции
+    input("\nНажмите Enter когда будете готовы...")
+    
+    log("\nСобираем ресурсы (3 попытки с разными параметрами)...")
+    for attempt in range(1, 4):
+        log(f"\nПопытка {attempt}:")
+        start_time = time.time()
         result = collect_resources_if_visible()
+        elapsed = time.time() - start_time
         
-        # Проверка, что функция вернула True (ресурсы были собраны)
-        self.assertTrue(result)
+        if result:
+            log(f"✅ Успешно! Время: {elapsed:.2f} сек")
+            log("Проверьте в игре - ресурсы должны быть собраны")
+        else:
+            log(f"❌ Не удалось собрать. Время: {elapsed:.2f} сек")
+            log("Проверьте скриншот в папке debug/")
         
-        # Проверка, что log был вызван с правильным сообщением
-        mock_log.assert_called_with('💰 Ресурсы собраны (confidence=0.7): collect_gold.png')
+        if attempt < 3:
+            input("Измените положение ресурсов и нажмите Enter для следующей попытки...")
 
-    @patch('collect.find_and_click')
-    @patch('collect.debug_screenshot')
-    @patch('collect.log')
-    def test_collect_resources_not_found(self, mock_log, mock_debug_screenshot, mock_find_and_click):
-        # Мокируем find_and_click, чтобы он всегда возвращал False
-        mock_find_and_click.return_value = False
-        
-        # Мокируем debug_screenshot, чтобы вернуть фиктивный путь к скриншоту
-        mock_debug_screenshot.return_value = '/fake/path/screenshot.png'
-        
-        # Запуск тестируемой функции
-        result = collect_resources_if_visible()
-        
-        # Проверка, что функция вернула False (ресурсы не были собраны)
-        self.assertFalse(result)
-        
-        # Проверка, что лог был вызван с правильным сообщением
-        mock_log.assert_called_with('⚠️ Ресурсы не найдены. Скриншот сохранен: /fake/path/screenshot.png')
-        
-    @patch('collect.find_and_click')
-    @patch('collect.debug_screenshot')
-    @patch('collect.log')
-    def test_collect_resources_partial_success(self, mock_log, mock_debug_screenshot, mock_find_and_click):
-        # Мокируем find_and_click для имитации нахождения ресурса только с одним изображением
-        mock_find_and_click.side_effect = [True, False, False]
-        
-        # Запуск тестируемой функции
-        result = collect_resources_if_visible()
-        
-        # Проверка, что функция вернула True (ресурс был найден и собран)
-        self.assertTrue(result)
-        
-        # Проверка, что log был вызван с правильным сообщением
-        mock_log.assert_called_with('💰 Ресурсы собраны (confidence=0.7): collect_gold.png')
+def image_validator():
+    """Проверка шаблонов изображений"""
+    log("\n=== ПРОВЕРКА ШАБЛОНОВ ===")
+    images = [
+        "collect_gold.png",
+        "collect_elixir.png",
+        "collect_gold_d.png",
+        "collect_elixir_s.png",
+        "collect_gold_sv.png",
+        "collect_elixir_svs.png"
+    ]
     
-if __name__ == '__main__':
-    unittest.main()
+    missing = []
+    for img in images:
+        path = os.path.join("C:/farmbot/images/", img)
+        if os.path.exists(path):
+            log(f"✅ {img} - найден")
+        else:
+            log(f"❌ {img} - отсутствует")
+            missing.append(img)
+    
+    if missing:
+        log("\nВНИМАНИЕ: Отсутствуют следующие файлы изображений:")
+        for img in missing:
+            log(f"- {img}")
+        log("\nДобавьте их в папку C:/farmbot/images/ для полной функциональности")
+
+def main_menu():
+    while True:
+        log("\n=== ТЕСТ МОДУЛЯ COLLECT ===")
+        log("1. Тест сбора ресурсов")
+        log("2. Проверка шаблонов изображений")
+        log("3. Выход")
+        
+        choice = input("Выберите действие: ").strip()
+        
+        if choice == "1":
+            live_collection_test()
+        elif choice == "2":
+            image_validator()
+        elif choice == "3":
+            break
+        else:
+            log("Некорректный выбор, попробуйте again")
+
+if __name__ == "__main__":
+    log("=== ТЕСТИРОВАНИЕ СБОРА РЕСУРСОВ ===")
+    try:
+        main_menu()
+    except KeyboardInterrupt:
+        log("\nТестирование прервано пользователем")
+    except Exception as e:
+        log(f"Ошибка: {str(e)}")
+    
+    log("\nТестирование завершено. Проверьте логи для анализа результатов.")

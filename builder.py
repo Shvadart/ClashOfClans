@@ -1,5 +1,5 @@
 # builder.py (обновлённый)
-from utils import find_and_click, find_on_screen
+from utils import find_and_click, find_on_screen, find_any_on_screen
 from logger import log
 from resources import get_resources, get_townhall_level
 from decorators import with_resource_collection
