@@ -4,6 +4,7 @@ from logger import log
 from resources import get_resources, get_townhall_level
 from decorators import with_resource_collection
 from config import *
+from utils import debug_screenshot
 import time
 import pyautogui
 import json
@@ -22,9 +23,26 @@ def build_new_structure():
             log("❌ Меню строителя не найдено после 5 попыток")
             return False
 
-    time.sleep(1)
+    time.sleep(0.5)
     new_found = False
-    for _ in range(3):
+    for new_img in [
+        "C:/farmbot/images/new1.png",
+        "C:/farmbot/images/new2.png",
+        "C:/farmbot/images/new3.png",
+        "C:/farmbot/images/new4.png",
+        "C:/farmbot/images/new5.png"
+    ]:
+        if find_and_click(new_img, retry=0, region=SEARCH_REGION):  # Добавляем region
+            log(f"✅ Найдено 'Новое': {new_img}")
+            new_found = True
+            break
+
+    if not new_found:
+        log("📜 Не найдено 'Новое' в видимой области, пролистываем...")
+        pyautogui.moveTo(500, 500)
+        pyautogui.dragRel(0, -100, duration=0.3)
+        time.sleep(0.5)
+        # Повторяем поиск после скролла
         for new_img in [
             "C:/farmbot/images/new1.png",
             "C:/farmbot/images/new2.png",
@@ -32,17 +50,10 @@ def build_new_structure():
             "C:/farmbot/images/new4.png",
             "C:/farmbot/images/new5.png"
         ]:
-            if find_and_click(new_img):
-                log(f"✅ Найдено 'Новое': {new_img}")
+            if find_and_click(new_img, retry=0, region=SEARCH_REGION):
+                log(f"✅ Найдено 'Новое' после скролла: {new_img}")
                 new_found = True
                 break
-        if new_found:
-            break
-        log("📜 Не найдено 'Новое', пролистываем...")
-        pyautogui.moveTo(500, 500)
-        pyautogui.dragRel(0, -100, duration=0.3)
-        time.sleep(0.5)
-
     if not new_found:
         log("❌ Ни одно новое здание не найдено.")
         return False
@@ -105,12 +116,31 @@ def build_new_structure():
     pyautogui.click()
     log(f"📦 Клик по зданию под стрелкой: ({target_x}, {target_y})")
 
-    time.sleep(1)
+    # Увеличиваем задержку и добавляем проверку анимации
+    time.sleep(2)  # Даем время для появления окна подтверждения
 
     log("✅ Подтверждаем размещение здания...")
-    if find_and_click("C:/farmbot/images/green_check.png"):
-        log("✅ Здание успешно размещено.")
-        return True
-    else:
-        log("❌ Галочка не найдена — возможно, ошибка.")
+    
+    # Пробуем несколько вариантов галочки с разными параметрами
+    check_found = False
+    for check_img in [
+        "C:/farmbot/images/green_check.png",
+        "C:/farmbot/images/green_check_v2.png",
+        "C:/farmbot/images/green_check_small.png"
+    ]:
+        if find_and_click(check_img, confidence=0.9, retry=3, pause=0.5):
+            log(f"✅ Галочка найдена: {check_img}")
+            check_found = True
+            break
+        time.sleep(0.3)  # Небольшая пауза между попытками
+
+    if not check_found:
+        debug_path = debug_screenshot()
+        log("❌ Ни одна из галочек не найдена")
+        log(f"Скриншот сохранен: {debug_path}")
         return False
+
+    # Дополнительная пауза после клика
+    time.sleep(1)
+    log("✅ Здание успешно размещено.")
+    return True

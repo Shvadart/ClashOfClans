@@ -28,10 +28,11 @@ def find_and_click(
     pause=PAUSE_SHORT, 
     confidence=None, 
     retry=2,
-    silent_errors=False,  # Новый параметр для подавления ошибок
-    silent_all=False      # Полное подавление логов (для массовых проверок)
+    silent_errors=False,
+    silent_all=False,
+    region=None  # Новый необязательный параметр
 ):
-    """Улучшенная версия с контролируемым логированием"""
+    """Улучшенная версия с контролируемым логированием и поддержкой region"""
     if confidence is None:
         confidence = CONFIDENCE
         
@@ -47,7 +48,13 @@ def find_and_click(
 
     for attempt in range(retry + 1):
         try:
-            location = pyautogui.locateOnScreen(path, confidence=confidence)
+            # Добавляем поиск с учетом региона, если он указан
+            location = pyautogui.locateOnScreen(
+                path, 
+                confidence=confidence,
+                region=region if region else None
+            )
+            
             if location:
                 x, y, w, h = location
                 rand_x = random.randint(x + 5, x + w - 5)
@@ -61,6 +68,8 @@ def find_and_click(
                 debug_path = debug_screenshot()
                 if not silent_errors:
                     log(f"[DEBUG] Изображение не найдено: {os.path.basename(path)}")
+                    if region:
+                        log(f"[DEBUG] Поиск в регионе: {region}")
                 log(f"[DEBUG] Скриншот сохранен: {debug_path}")
                 
         except Exception as e:

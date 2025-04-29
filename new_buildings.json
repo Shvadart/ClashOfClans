@@ -14,5 +14,13 @@
     "type": "laboratory",
     "done": false,
     "level": 1
+  },
+  {
+    "name": ["C:/farmbot/images/mortar.png", "C:/farmbot/images/mortar1.png"],
+    "elixir": 0,
+    "gold": 5000,
+    "type": "defence",
+    "done": false,
+    "level": 1
   }
 ]

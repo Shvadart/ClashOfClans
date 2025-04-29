@@ -74,12 +74,3 @@ def get_all_resources():
     elixir = extract_number_from_image('elixir_region.png', crop_right_half=True, debug_name='debug_elixir.png')
     gems = extract_number_from_image('gems_region.png', crop_right_half=False, debug_name='debug_gems.png')
     return gold, elixir, gems
-
-
-# Использование (можно закомментировать при импорте как модуль):
-# if __name__ == "__main__":
-#     gold = extract_number_from_image('gold_region.png', crop_right_half=False, debug_name='debug_gold.png')
-#     elixir = extract_number_from_image('elixir_region.png', crop_right_half=True, debug_name='debug_elixir.png')
-
-#     print(f"Золото: {gold}")
-#     print(f"Эликсир: {elixir}")
