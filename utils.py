@@ -7,13 +7,21 @@ from config import IMAGE_DIR, CONFIDENCE, PAUSE_SHORT
 from logger import log
 
 def debug_screenshot():
-    """Сохраняет скриншот для отладки"""
+    """Сохраняет скриншот для отладки с обработкой ошибок"""
     debug_dir = os.path.join(IMAGE_DIR, "debug")
     os.makedirs(debug_dir, exist_ok=True)
     timestamp = time.strftime("%Y%m%d_%H%M%S")
     path = os.path.join(debug_dir, f"debug_{timestamp}.png")
-    pyautogui.screenshot(path)
-    return path
+    
+    try:
+        # Явно закрываем файловый дескриптор
+        with open(path, 'wb') as f:
+            screenshot = pyautogui.screenshot()
+            screenshot.save(f)
+        return path
+    except Exception as e:
+        log(f"[ERROR] Не удалось сохранить скриншот: {str(e)}")
+        return None
 
 def find_and_click(
     image_name, 

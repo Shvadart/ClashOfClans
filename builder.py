@@ -9,6 +9,7 @@ import pyautogui
 import json
 import os
 
+#@with_resource_collection
 def build_new_structure():
     gold, elixir, _ = get_resources()
     log("Открываем меню строителя...")
