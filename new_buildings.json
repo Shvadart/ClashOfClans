@@ -8,7 +8,7 @@
     "level": 1
   },
   {
-    "name": "C:/farmbot/images/laboratory_lvl1.png",
+    "name": ["C:/farmbot/images/laboratory_lvl1.png", "C:/farmbot/images/laboratory_lvl12.png"],
     "elixir": 5000,
     "gold": 0,
     "type": "laboratory",

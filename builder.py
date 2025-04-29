@@ -1,19 +1,25 @@
-# builder.py (обновлённый)
+# builder.py (финальная версия)
 from utils import find_and_click, find_on_screen, find_any_on_screen
 from logger import log
 from resources import get_resources, get_townhall_level
 from decorators import with_resource_collection
+from config import *
 import time
 import pyautogui
 import json
 import os
 
-@with_resource_collection
 def build_new_structure():
-    log("\U0001f528 Открываем меню строителя...")
-    if not find_and_click("C:/farmbot/images/builder_icon.png"):
-        log("❌ Меню строителя не найдено.")
-        return False
+    gold, elixir, _ = get_resources()
+    log("Открываем меню строителя...")
+    if not find_and_click(
+            "C:/farmbot/images/builder_icon.png",
+            confidence=0.8,
+            retry=5,
+            silent_errors=True
+        ):
+            log("❌ Меню строителя не найдено после 5 попыток")
+            return False
 
     time.sleep(1)
     new_found = False
@@ -51,7 +57,10 @@ def build_new_structure():
     for arrow_img in [
         "C:/farmbot/images/arrow1.png",
         "C:/farmbot/images/arrow2.png",
-        "C:/farmbot/images/arrow3.png"
+        "C:/farmbot/images/arrow3.png",
+        "C:/farmbot/images/arrow4.png",
+        "C:/farmbot/images/arrow5.png",
+        "C:/farmbot/images/arrow6.png"
     ]:
         arrow = find_on_screen(arrow_img)
         if arrow:
@@ -62,16 +71,19 @@ def build_new_structure():
         log("❌ Стрелка не найдена.")
         return False
 
-    townhall = str(get_townhall_level())
-    gold, elixir, _ = get_resources()
     path = os.path.join(os.path.dirname(__file__), "new_buildings.json")
     with open(path, "r", encoding="utf-8") as f:
-        building_data = json.load(f).get(townhall, [])
+        building_data = json.load(f)
 
     match_found = False
     for b in building_data:
-        if find_any_on_screen(item["names"]):
-            log(f"🔎 Определено здание: {item['names'][0]}")
+        # Поддержка как строки, так и списка изображений
+        image_paths = [b["name"]] if isinstance(b["name"], str) else b["name"]
+        
+        if find_any_on_screen(image_paths):
+            building_name = os.path.basename(image_paths[0]) if isinstance(image_paths, list) else os.path.basename(image_paths)
+            log(f"🔎 Определено здание: {building_name}")
+            
             if gold >= b.get("gold", 0) and elixir >= b.get("elixir", 0):
                 match_found = True
                 break

@@ -53,7 +53,7 @@ def find_and_click(
                 debug_path = debug_screenshot()
                 if not silent_errors:
                     log(f"[DEBUG] Изображение не найдено: {os.path.basename(path)}")
-                log(f"[DEBUG] Скриншот сохранен: {debug_path}", silent=silent_all)
+                log(f"[DEBUG] Скриншот сохранен: {debug_path}")
                 
         except Exception as e:
             if not silent_all:
@@ -61,7 +61,7 @@ def find_and_click(
                     log(f"[ERROR] Ошибка при поиске изображения: {str(e)}")
                 if attempt == retry:
                     debug_path = debug_screenshot()
-                    log(f"[DEBUG] Скриншот сохранен: {debug_path}", silent=silent_all)
+                    log(f"[DEBUG] Скриншот сохранен: {debug_path}")
         
         if attempt < retry:
             time.sleep(1)  # Пауза только между попытками
@@ -97,7 +97,7 @@ def hold_mouse_in_parallelogram(zone, hold_time=2.0):
 def find_on_screen(image_path, confidence=CONFIDENCE, multiple=False, is_expected_fail=False):
     """Поиск изображения на экране с управлением логированием ошибок"""
     if not os.path.exists(image_path):
-        log(f"[WARN] Файл не найден: {image_path}", silent=is_expected_fail)
+        log(f"[WARN] Файл не найден: {image_path}")
         return None
 
     try:
@@ -106,7 +106,7 @@ def find_on_screen(image_path, confidence=CONFIDENCE, multiple=False, is_expecte
         return pyautogui.locateOnScreen(image_path, confidence=confidence)
     except Exception as e:
         if not is_expected_fail:
-            log(f"[DEBUG] Ошибка поиска {os.path.basename(image_path)}: {e}", silent=True)
+            log(f"[DEBUG] Ошибка поиска {os.path.basename(image_path)}: {e}")
         return None
 
 def find_any_and_click(image_paths, pause=PAUSE_SHORT):
