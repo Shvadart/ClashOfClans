@@ -25,6 +25,8 @@ def build_new_structure():
 
     time.sleep(0.5)
     new_found = False
+    log(f"🔍 Ищем 'Новое' в регионе: {SEARCH_REGION}")
+    debug_screenshot(region=SEARCH_REGION)
     for new_img in [
         "C:/farmbot/images/new1.png",
         "C:/farmbot/images/new2.png",
@@ -32,17 +34,20 @@ def build_new_structure():
         "C:/farmbot/images/new4.png",
         "C:/farmbot/images/new5.png"
     ]:
-        if find_and_click(new_img, retry=0, region=SEARCH_REGION):  # Добавляем region
+        if find_and_click(new_img, retry=0,confidence=CONFIDENCE_BUILDER, region=SEARCH_REGION):  # Добавляем region
             log(f"✅ Найдено 'Новое': {new_img}")
             new_found = True
             break
 
     if not new_found:
         log("📜 Не найдено 'Новое' в видимой области, пролистываем...")
-        pyautogui.moveTo(500, 500)
-        pyautogui.dragRel(0, -100, duration=0.3)
+        pyautogui.moveTo(950, 200)
+        time.sleep(0.3)
+        pyautogui.scroll(-350)
         time.sleep(0.5)
         # Повторяем поиск после скролла
+        log(f"🔍 Ищем 'Новое' в регионе: {SEARCH_REGION}")
+        debug_screenshot(region=SEARCH_REGION)
         for new_img in [
             "C:/farmbot/images/new1.png",
             "C:/farmbot/images/new2.png",

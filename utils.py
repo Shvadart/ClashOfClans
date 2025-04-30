@@ -6,18 +6,19 @@ import os
 from config import IMAGE_DIR, CONFIDENCE, PAUSE_SHORT
 from logger import log
 
-def debug_screenshot():
-    """Сохраняет скриншот для отладки с обработкой ошибок"""
+def debug_screenshot(region=None):
+    """Скриншот всей области или указанного региона"""
     debug_dir = os.path.join(IMAGE_DIR, "debug")
     os.makedirs(debug_dir, exist_ok=True)
     timestamp = time.strftime("%Y%m%d_%H%M%S")
     path = os.path.join(debug_dir, f"debug_{timestamp}.png")
     
     try:
-        # Явно закрываем файловый дескриптор
-        with open(path, 'wb') as f:
+        if region:
+            screenshot = pyautogui.screenshot(region=region)
+        else:
             screenshot = pyautogui.screenshot()
-            screenshot.save(f)
+        screenshot.save(path)
         return path
     except Exception as e:
         log(f"[ERROR] Не удалось сохранить скриншот: {str(e)}")
@@ -30,9 +31,9 @@ def find_and_click(
     retry=2,
     silent_errors=False,
     silent_all=False,
-    region=None  # Новый необязательный параметр
+    region=None
 ):
-    """Улучшенная версия с контролируемым логированием и поддержкой region"""
+    """Версия с корректной обработкой region"""
     if confidence is None:
         confidence = CONFIDENCE
         
@@ -48,17 +49,24 @@ def find_and_click(
 
     for attempt in range(retry + 1):
         try:
-            # Добавляем поиск с учетом региона, если он указан
-            location = pyautogui.locateOnScreen(
-                path, 
-                confidence=confidence,
-                region=region if region else None
-            )
+            # Делаем скриншот области, если указан region
+            if region:
+                screenshot = pyautogui.screenshot(region=region)
+                location = pyautogui.locate(path, screenshot, confidence=confidence)
+            else:
+                location = pyautogui.locateOnScreen(path, confidence=confidence)
             
             if location:
                 x, y, w, h = location
-                rand_x = random.randint(x + 5, x + w - 5)
-                rand_y = random.randint(y + 5, y + h - 5)
+                
+                # Корректируем координаты для клика
+                if region:
+                    rand_x = region[0] + random.randint(x + 5, x + w - 5)
+                    rand_y = region[1] + random.randint(y + 5, y + h - 5)
+                else:
+                    rand_x = random.randint(x + 5, x + w - 5)
+                    rand_y = random.randint(y + 5, y + h - 5)
+                
                 pyautogui.moveTo(rand_x, rand_y)
                 pyautogui.click()
                 time.sleep(pause + random.uniform(0.1, 0.4))
@@ -81,7 +89,7 @@ def find_and_click(
                     log(f"[DEBUG] Скриншот сохранен: {debug_path}")
         
         if attempt < retry:
-            time.sleep(1)  # Пауза только между попытками
+            time.sleep(1)
     
     return False
 
