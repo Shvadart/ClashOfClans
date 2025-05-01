@@ -1,13 +1,45 @@
 # logger.py
+"""
+Модуль логирования действий бота. Обеспечивает:
+- Запись логов в файл
+- Вывод логов в консоль
+- Форматирование сообщений с временными метками
+"""
+
 import os
 from datetime import datetime
 
-# Путь к лог-файлу
-LOG_FILE = os.path.join(os.path.dirname(__file__), "log.txt")
+# Константы модуля
+LOG_FILE = os.path.join(os.path.dirname(__file__), "log.txt")  # Путь к файлу логов
 
-def log(message):
+def log(message, silent=False):
+    """
+    Записывает сообщение в лог-файл и выводит в консоль.
+    
+    Args:
+        message (str): Текст сообщения для логирования
+        silent (bool): Если True, не выводит сообщение в консоль (только в файл)
+                      По умолчанию False
+    
+    Файл лога создается в той же директории, где находится модуль.
+    Каждое сообщение предваряется временной меткой в формате [ГГГГ-ММ-ДД ЧЧ:ММ:СС].
+    """
+    # Формируем временную метку
     timestamp = datetime.now().strftime("[%Y-%m-%d %H:%M:%S]")
+    
+    # Собираем полное сообщение с временной меткой
     full_message = f"{timestamp} {message}"
-    print(full_message)  # В консоль
-    with open(LOG_FILE, "a", encoding="utf-8") as f:
-        f.write(full_message + "\n")
+    
+    # Вывод в консоль (если не silent-режим)
+    if not silent:
+        print(full_message)
+    
+    # Запись в файл логов
+    try:
+        # Открываем файл в режиме добавления ('a') с кодировкой UTF-8
+        with open(LOG_FILE, "a", encoding="utf-8") as f:
+            # Записываем сообщение и добавляем перенос строки
+            f.write(full_message + "\n")
+    except IOError as e:
+        # В случае ошибки записи в файл выводим сообщение в консоль
+        print(f"{timestamp} [LOGGER ERROR] Не удалось записать в лог-файл: {str(e)}")
